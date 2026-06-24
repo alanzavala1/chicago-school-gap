@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Data — raw downloads & large/generated files (keep these out of git; document sources in PROJECT_BRIEF.md)
+data/raw/
+*.xlsx
+*.zip
+
+# PostGIS / Docker volumes
+pgdata/
+
+# Misc
+.DS_Store
