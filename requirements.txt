@@ -1,0 +1,5 @@
+# Chicago School Gap — Python analysis dependencies.
+# Create a project venv and install:  python -m venv .venv && .venv/Scripts/pip install -r requirements.txt
+requests>=2.31
+pandas>=2.0
+numpy>=1.24

@@ -1,0 +1,264 @@
+{
+  "choice_reason": "k=5 is locked for the public map after checking k=3..7: it has the strongest silhouette score in this run while preserving interpretable differences across assigned quality, local school quality, local school supply, and selective access without tiny singleton groups.",
+  "chosen_k": 5,
+  "cluster_centroid_z_scores": {
+    "group_1": {
+      "assigned_default_index": 0.373,
+      "local_school_index": -0.05,
+      "local_supply_gap": 0.659,
+      "selective_access_index": 0.073
+    },
+    "group_2": {
+      "assigned_default_index": 0.546,
+      "local_school_index": 0.736,
+      "local_supply_gap": -0.659,
+      "selective_access_index": 0.089
+    },
+    "group_3": {
+      "assigned_default_index": -0.556,
+      "local_school_index": 1.548,
+      "local_supply_gap": -0.214,
+      "selective_access_index": -0.34
+    },
+    "group_4": {
+      "assigned_default_index": -1.219,
+      "local_school_index": -0.375,
+      "local_supply_gap": 0.654,
+      "selective_access_index": -0.398
+    },
+    "group_5": {
+      "assigned_default_index": -0.201,
+      "local_school_index": -0.88,
+      "local_supply_gap": -0.192,
+      "selective_access_index": -0.372
+    }
+  },
+  "cluster_sizes": {
+    "group_1": 22,
+    "group_2": 22,
+    "group_3": 7,
+    "group_4": 13,
+    "group_5": 13
+  },
+  "communities_by_group": {
+    "group_1": [
+      "Albany Park",
+      "Armour Square",
+      "Beverly",
+      "Bridgeport",
+      "Burnside",
+      "Calumet Heights",
+      "Clearing",
+      "Fuller Park",
+      "Garfield Ridge",
+      "Grand Boulevard",
+      "Hermosa",
+      "Logan Square",
+      "Mckinley Park",
+      "Montclare",
+      "Oakland",
+      "Riverdale",
+      "South Deering",
+      "Washington Park",
+      "West Garfield Park",
+      "West Lawn",
+      "West Pullman",
+      "Woodlawn"
+    ],
+    "group_2": [
+      "Ashburn",
+      "Auburn Gresham",
+      "Austin",
+      "Avalon Park",
+      "Chatham",
+      "Douglas",
+      "East Garfield Park",
+      "Englewood",
+      "Greater Grand Crossing",
+      "Humboldt Park",
+      "Loop",
+      "Near South Side",
+      "Near West Side",
+      "New City",
+      "North Lawndale",
+      "Pullman",
+      "Roseland",
+      "South Chicago",
+      "South Lawndale",
+      "South Shore",
+      "Washington Heights",
+      "West Town"
+    ],
+    "group_3": [
+      "Avondale",
+      "Brighton Park",
+      "Chicago Lawn",
+      "Edison Park",
+      "Lower West Side",
+      "Morgan Park",
+      "Uptown"
+    ],
+    "group_4": [
+      "East Side",
+      "Edgewater",
+      "Forest Glen",
+      "Hegewisch",
+      "Hyde Park",
+      "Jefferson Park",
+      "Kenwood",
+      "Lake View",
+      "Lincoln Park",
+      "Lincoln Square",
+      "Norwood Park",
+      "Ohare",
+      "West Ridge"
+    ],
+    "group_5": [
+      "Archer Heights",
+      "Belmont Cragin",
+      "Dunning",
+      "Gage Park",
+      "Irving Park",
+      "Mount Greenwood",
+      "Near North Side",
+      "North Center",
+      "North Park",
+      "Portage Park",
+      "Rogers Park",
+      "West Elsdon",
+      "West Englewood"
+    ]
+  },
+  "demographics_used_as_inputs": false,
+  "features": [
+    {
+      "high": "weaker assigned defaults",
+      "key": "assigned_default_index",
+      "label": "Assigned default weakness",
+      "low": "stronger assigned defaults",
+      "source": "Median tract default_index"
+    },
+    {
+      "high": "weaker schools located here",
+      "key": "local_school_index",
+      "label": "Local school weakness",
+      "low": "stronger schools located here",
+      "source": "Mean local high-school weakness index"
+    },
+    {
+      "high": "limited selective access",
+      "key": "selective_access_index",
+      "label": "Selective access weakness",
+      "low": "stronger selective access",
+      "source": "Median tract access_index"
+    },
+    {
+      "high": "few or no high schools located here",
+      "key": "local_supply_gap",
+      "label": "Local school supply gap",
+      "low": "more high schools located here",
+      "source": "1 - min(local_hs_count, 4) / 4"
+    }
+  ],
+  "imputed_values": {
+    "assigned_default_index": 0.4854,
+    "local_school_index": 0.3811,
+    "local_supply_gap": 0.5,
+    "selective_access_index": 0.4889
+  },
+  "k_diagnostics": {
+    "3": {
+      "cluster_sizes": {
+        "0": 22,
+        "1": 25,
+        "2": 30
+      },
+      "min_cluster_size": 22,
+      "silhouette": 0.2587
+    },
+    "4": {
+      "cluster_sizes": {
+        "0": 19,
+        "1": 25,
+        "2": 19,
+        "3": 14
+      },
+      "min_cluster_size": 14,
+      "silhouette": 0.2647
+    },
+    "5": {
+      "cluster_sizes": {
+        "0": 22,
+        "1": 7,
+        "2": 13,
+        "3": 13,
+        "4": 22
+      },
+      "min_cluster_size": 7,
+      "silhouette": 0.2681
+    },
+    "6": {
+      "cluster_sizes": {
+        "0": 22,
+        "1": 4,
+        "2": 13,
+        "3": 13,
+        "4": 13,
+        "5": 12
+      },
+      "min_cluster_size": 4,
+      "silhouette": 0.2383
+    },
+    "7": {
+      "cluster_sizes": {
+        "0": 22,
+        "1": 4,
+        "2": 13,
+        "3": 8,
+        "4": 13,
+        "5": 12,
+        "6": 5
+      },
+      "min_cluster_size": 4,
+      "silhouette": 0.246
+    }
+  },
+  "pca_explained_variance_ratio": [
+    0.4688,
+    0.2471
+  ],
+  "pca_loadings": [
+    {
+      "assigned_default_index": 0.5832,
+      "local_school_index": 0.6741,
+      "local_supply_gap": -0.4013,
+      "selective_access_index": 0.2109
+    },
+    {
+      "assigned_default_index": 0.7538,
+      "local_school_index": -0.5872,
+      "local_supply_gap": 0.215,
+      "selective_access_index": 0.2019
+    }
+  ],
+  "robust_scale": {
+    "assigned_default_index": {
+      "iqr": 0.2132,
+      "median": 0.4854
+    },
+    "local_school_index": {
+      "iqr": 0.1542,
+      "median": 0.3811
+    },
+    "local_supply_gap": {
+      "iqr": 0.5,
+      "median": 0.5
+    },
+    "selective_access_index": {
+      "iqr": 0.4805,
+      "median": 0.4889
+    }
+  },
+  "schema_version": 1,
+  "source_metrics": "output\\community_metrics.json"
+}

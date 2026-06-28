@@ -1,0 +1,497 @@
+{
+  "baseline_cluster_sizes": {
+    "group_1": 22,
+    "group_2": 22,
+    "group_3": 7,
+    "group_4": 13,
+    "group_5": 13
+  },
+  "baseline_file": "output\\community_groups.json",
+  "changed_communities": [
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Albany Park",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Archer Heights",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_3",
+      "baseline_label": "Weak local schools, better access",
+      "community_area": "Avondale",
+      "local_nonselective_hs_count": 4,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_2",
+      "selective_excluded_label": "Weak default and local schools"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Belmont Cragin",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Beverly",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_3",
+      "baseline_label": "Weak local schools, better access",
+      "community_area": "Chicago Lawn",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_2",
+      "selective_excluded_label": "Weak default and local schools"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Clearing",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Dunning",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "East Side",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Edgewater",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Forest Glen",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Gage Park",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Garfield Ridge",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Hegewisch",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Hermosa",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Hyde Park",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Irving Park",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Jefferson Park",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Kenwood",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Lake View",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Lincoln Park",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Lincoln Square",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Logan Square",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_2",
+      "baseline_label": "Weak default and local schools",
+      "community_area": "Loop",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_1",
+      "selective_excluded_label": "Weak default, few local options"
+    },
+    {
+      "baseline_group": "group_3",
+      "baseline_label": "Weak local schools, better access",
+      "community_area": "Lower West Side",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_2",
+      "selective_excluded_label": "Weak default and local schools"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Mckinley Park",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Montclare",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_3",
+      "baseline_label": "Weak local schools, better access",
+      "community_area": "Morgan Park",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_2",
+      "selective_excluded_label": "Weak default and local schools"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Mount Greenwood",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Near North Side",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_2",
+      "baseline_label": "Weak default and local schools",
+      "community_area": "Near South Side",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_1",
+      "selective_excluded_label": "Weak default, few local options"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "North Center",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "North Park",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Norwood Park",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "Ohare",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Portage Park",
+      "local_nonselective_hs_count": 3,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "Riverdale",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "Rogers Park",
+      "local_nonselective_hs_count": 2,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "West Elsdon",
+      "local_nonselective_hs_count": 0,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_5",
+      "baseline_label": "Stronger school/access pattern",
+      "community_area": "West Englewood",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 1,
+      "selective_excluded_group": "group_4",
+      "selective_excluded_label": "Few local schools, stronger default"
+    },
+    {
+      "baseline_group": "group_1",
+      "baseline_label": "Weak default, few local options",
+      "community_area": "West Lawn",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_3",
+      "selective_excluded_label": "Weak local schools, better access"
+    },
+    {
+      "baseline_group": "group_4",
+      "baseline_label": "Few local schools, stronger default",
+      "community_area": "West Ridge",
+      "local_nonselective_hs_count": 1,
+      "local_selective_hs_count": 0,
+      "selective_excluded_group": "group_5",
+      "selective_excluded_label": "Stronger school/access pattern"
+    }
+  ],
+  "changed_group_count": 42,
+  "changed_group_share": 0.545,
+  "chosen_k": 5,
+  "communities_with_local_selective_hs": [
+    "Humboldt Park",
+    "Kenwood",
+    "Loop",
+    "Near North Side",
+    "Near West Side",
+    "North Center",
+    "North Park",
+    "Roseland",
+    "South Shore",
+    "West Elsdon",
+    "West Englewood"
+  ],
+  "communities_with_local_selective_hs_count": 11,
+  "feature_replacements": {
+    "local_school_index": "local_nonselective_school_index",
+    "local_supply_gap": "computed from local_nonselective_hs_count",
+    "selective_access_index": "unchanged; this remains the explicit competitive-access signal"
+  },
+  "k_diagnostics": {
+    "3": {
+      "cluster_sizes": {
+        "0": 33,
+        "1": 15,
+        "2": 29
+      },
+      "min_cluster_size": 15,
+      "silhouette": 0.2578
+    },
+    "4": {
+      "cluster_sizes": {
+        "0": 26,
+        "1": 13,
+        "2": 27,
+        "3": 11
+      },
+      "min_cluster_size": 11,
+      "silhouette": 0.2584
+    },
+    "5": {
+      "cluster_sizes": {
+        "0": 13,
+        "1": 11,
+        "2": 24,
+        "3": 14,
+        "4": 15
+      },
+      "min_cluster_size": 11,
+      "silhouette": 0.2642
+    },
+    "6": {
+      "cluster_sizes": {
+        "0": 13,
+        "1": 11,
+        "2": 23,
+        "3": 10,
+        "4": 15,
+        "5": 5
+      },
+      "min_cluster_size": 5,
+      "silhouette": 0.287
+    },
+    "7": {
+      "cluster_sizes": {
+        "0": 14,
+        "1": 5,
+        "2": 23,
+        "3": 8,
+        "4": 9,
+        "5": 5,
+        "6": 13
+      },
+      "min_cluster_size": 5,
+      "silhouette": 0.2654
+    }
+  },
+  "local_nonselective_quality_imputed_communities": [
+    "Beverly",
+    "Bridgeport",
+    "Burnside",
+    "Calumet Heights",
+    "Clearing",
+    "Forest Glen",
+    "Fuller Park",
+    "Hegewisch",
+    "Hyde Park",
+    "Jefferson Park",
+    "Mckinley Park",
+    "Montclare",
+    "Oakland",
+    "Ohare",
+    "South Deering",
+    "West Elsdon"
+  ],
+  "local_nonselective_quality_imputed_count": 16,
+  "purpose": "Sensitivity check: remove selective-enrollment schools from local school quality and local supply before re-running the same k=5 clustering.",
+  "schema_version": 1,
+  "selective_excluded_cluster_sizes": {
+    "group_1": 14,
+    "group_2": 24,
+    "group_3": 13,
+    "group_4": 15,
+    "group_5": 11
+  }
+}

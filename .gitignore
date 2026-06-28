@@ -7,11 +7,18 @@ __pycache__/
 # Node
 frontend/node_modules/
 frontend/dist/
+frontend/*.log
+
+# Generated SQL (rebuilt by analysis/02_load.py in run_all.sh)
+analysis/load.sql
 
 # Data — raw downloads & large/generated files (keep these out of git; document sources in PROJECT_BRIEF.md)
 data/raw/
+data/osrm/
+data/otp/
 *.xlsx
 *.zip
+*.osm.pbf
 
 # PostGIS / Docker volumes
 pgdata/

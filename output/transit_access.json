@@ -1,0 +1,4765 @@
+{
+  "meta": {
+    "method": "OTP door-to-door transit (walk + CTA bus/rail + transfers) from tract internal points to selective schools",
+    "engine": "OpenTripPlanner 2.5.0",
+    "feed": "CTA GTFS",
+    "service_date": "2026-07-08",
+    "departure_window": [
+      "07:00am",
+      "07:30am",
+      "08:00am"
+    ],
+    "statistic": "median of best itinerary across departures",
+    "near_threshold_min": 30,
+    "elite_sat": 1250,
+    "limits": "CTA only (excludes Metra/Pace \u2014 may understate access where those fill gaps); regular weekday schedule."
+  },
+  "tracts": {
+    "17031010100": {
+      "nearest_selective_transit_min": 50.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 50.3,
+      "n_selective_within_30min": 0
+    },
+    "17031010201": {
+      "nearest_selective_transit_min": 42.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 42.0,
+      "n_selective_within_30min": 0
+    },
+    "17031010202": {
+      "nearest_selective_transit_min": 43.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 43.7,
+      "n_selective_within_30min": 0
+    },
+    "17031010300": {
+      "nearest_selective_transit_min": 41.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 41.6,
+      "n_selective_within_30min": 0
+    },
+    "17031010400": {
+      "nearest_selective_transit_min": 42.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 42.6,
+      "n_selective_within_30min": 0
+    },
+    "17031010501": {
+      "nearest_selective_transit_min": 38.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 38.6,
+      "n_selective_within_30min": 0
+    },
+    "17031010502": {
+      "nearest_selective_transit_min": 43.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 43.3,
+      "n_selective_within_30min": 0
+    },
+    "17031010503": {
+      "nearest_selective_transit_min": 39.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 39.8,
+      "n_selective_within_30min": 0
+    },
+    "17031010600": {
+      "nearest_selective_transit_min": 39.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 39.8,
+      "n_selective_within_30min": 0
+    },
+    "17031010701": {
+      "nearest_selective_transit_min": 32.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 32.7,
+      "n_selective_within_30min": 0
+    },
+    "17031010702": {
+      "nearest_selective_transit_min": 34.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 34.1,
+      "n_selective_within_30min": 0
+    },
+    "17031020100": {
+      "nearest_selective_transit_min": 40.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 40.3,
+      "n_selective_within_30min": 0
+    },
+    "17031020200": {
+      "nearest_selective_transit_min": 28.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 28.9,
+      "n_selective_within_30min": 1
+    },
+    "17031020301": {
+      "nearest_selective_transit_min": 31.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 31.1,
+      "n_selective_within_30min": 0
+    },
+    "17031020302": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 28.1,
+      "n_selective_within_30min": 1
+    },
+    "17031020400": {
+      "nearest_selective_transit_min": 30.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 30.3,
+      "n_selective_within_30min": 0
+    },
+    "17031020500": {
+      "nearest_selective_transit_min": 36.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 36.5,
+      "n_selective_within_30min": 0
+    },
+    "17031020601": {
+      "nearest_selective_transit_min": 25.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 1
+    },
+    "17031020602": {
+      "nearest_selective_transit_min": 29.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 29.9,
+      "n_selective_within_30min": 1
+    },
+    "17031020701": {
+      "nearest_selective_transit_min": 13.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 13.6,
+      "n_selective_within_30min": 1
+    },
+    "17031020702": {
+      "nearest_selective_transit_min": 23.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 23.4,
+      "n_selective_within_30min": 1
+    },
+    "17031020801": {
+      "nearest_selective_transit_min": 21.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 21.4,
+      "n_selective_within_30min": 1
+    },
+    "17031020802": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 25.6,
+      "n_selective_within_30min": 1
+    },
+    "17031020901": {
+      "nearest_selective_transit_min": 30.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 30.4,
+      "n_selective_within_30min": 0
+    },
+    "17031020902": {
+      "nearest_selective_transit_min": 31.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 31.6,
+      "n_selective_within_30min": 0
+    },
+    "17031030101": {
+      "nearest_selective_transit_min": 39.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 39.4,
+      "n_selective_within_30min": 0
+    },
+    "17031030102": {
+      "nearest_selective_transit_min": 41.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 41.8,
+      "n_selective_within_30min": 0
+    },
+    "17031030103": {
+      "nearest_selective_transit_min": 42.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 42.3,
+      "n_selective_within_30min": 0
+    },
+    "17031030104": {
+      "nearest_selective_transit_min": 43.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 43.0,
+      "n_selective_within_30min": 0
+    },
+    "17031030200": {
+      "nearest_selective_transit_min": 40.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 40.3,
+      "n_selective_within_30min": 0
+    },
+    "17031030300": {
+      "nearest_selective_transit_min": 34.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 34.5,
+      "n_selective_within_30min": 0
+    },
+    "17031030400": {
+      "nearest_selective_transit_min": 33.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 33.7,
+      "n_selective_within_30min": 0
+    },
+    "17031030500": {
+      "nearest_selective_transit_min": 32.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 32.1,
+      "n_selective_within_30min": 0
+    },
+    "17031030601": {
+      "nearest_selective_transit_min": 39.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 39.8,
+      "n_selective_within_30min": 0
+    },
+    "17031030603": {
+      "nearest_selective_transit_min": 37.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 37.1,
+      "n_selective_within_30min": 0
+    },
+    "17031030604": {
+      "nearest_selective_transit_min": 41.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 0
+    },
+    "17031030701": {
+      "nearest_selective_transit_min": 36.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 36.3,
+      "n_selective_within_30min": 0
+    },
+    "17031030702": {
+      "nearest_selective_transit_min": 33.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 33.2,
+      "n_selective_within_30min": 0
+    },
+    "17031030703": {
+      "nearest_selective_transit_min": 31.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 31.7,
+      "n_selective_within_30min": 0
+    },
+    "17031030706": {
+      "nearest_selective_transit_min": 35.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 35.8,
+      "n_selective_within_30min": 0
+    },
+    "17031030800": {
+      "nearest_selective_transit_min": 28.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 28.4,
+      "n_selective_within_30min": 1
+    },
+    "17031030900": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 25.6,
+      "n_selective_within_30min": 1
+    },
+    "17031031000": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 27.9,
+      "n_selective_within_30min": 2
+    },
+    "17031031100": {
+      "nearest_selective_transit_min": 29.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 29.1,
+      "n_selective_within_30min": 1
+    },
+    "17031031200": {
+      "nearest_selective_transit_min": 32.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 32.7,
+      "n_selective_within_30min": 0
+    },
+    "17031031300": {
+      "nearest_selective_transit_min": 40.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 0
+    },
+    "17031031400": {
+      "nearest_selective_transit_min": 37.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 37.2,
+      "n_selective_within_30min": 0
+    },
+    "17031031501": {
+      "nearest_selective_transit_min": 35.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 35.1,
+      "n_selective_within_30min": 0
+    },
+    "17031031502": {
+      "nearest_selective_transit_min": 33.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 33.0,
+      "n_selective_within_30min": 0
+    },
+    "17031031700": {
+      "nearest_selective_transit_min": 23.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 23.7,
+      "n_selective_within_30min": 1
+    },
+    "17031031800": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.1,
+      "n_selective_within_30min": 1
+    },
+    "17031031900": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 28.1,
+      "n_selective_within_30min": 1
+    },
+    "17031032100": {
+      "nearest_selective_transit_min": 30.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 30.1,
+      "n_selective_within_30min": 0
+    },
+    "17031040100": {
+      "nearest_selective_transit_min": 31.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 31.8,
+      "n_selective_within_30min": 0
+    },
+    "17031040201": {
+      "nearest_selective_transit_min": 20.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 20.3,
+      "n_selective_within_30min": 2
+    },
+    "17031040202": {
+      "nearest_selective_transit_min": 18.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 18.2,
+      "n_selective_within_30min": 2
+    },
+    "17031040300": {
+      "nearest_selective_transit_min": 12.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 12.2,
+      "n_selective_within_30min": 2
+    },
+    "17031040401": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.6,
+      "n_selective_within_30min": 2
+    },
+    "17031040402": {
+      "nearest_selective_transit_min": 24.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 24.1,
+      "n_selective_within_30min": 2
+    },
+    "17031040600": {
+      "nearest_selective_transit_min": 17.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 17.8,
+      "n_selective_within_30min": 2
+    },
+    "17031040700": {
+      "nearest_selective_transit_min": 18.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 18.1,
+      "n_selective_within_30min": 2
+    },
+    "17031040800": {
+      "nearest_selective_transit_min": 15.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 15.3,
+      "n_selective_within_30min": 2
+    },
+    "17031040900": {
+      "nearest_selective_transit_min": 16.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 16.6,
+      "n_selective_within_30min": 1
+    },
+    "17031050100": {
+      "nearest_selective_transit_min": 22.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.5,
+      "n_selective_within_30min": 1
+    },
+    "17031050200": {
+      "nearest_selective_transit_min": 13.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 13.8,
+      "n_selective_within_30min": 1
+    },
+    "17031050300": {
+      "nearest_selective_transit_min": 9.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 9.7,
+      "n_selective_within_30min": 1
+    },
+    "17031050500": {
+      "nearest_selective_transit_min": 9.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 9.7,
+      "n_selective_within_30min": 1
+    },
+    "17031050600": {
+      "nearest_selective_transit_min": 13.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 13.9,
+      "n_selective_within_30min": 1
+    },
+    "17031050700": {
+      "nearest_selective_transit_min": 11.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 11.0,
+      "n_selective_within_30min": 1
+    },
+    "17031050800": {
+      "nearest_selective_transit_min": 8.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 8.3,
+      "n_selective_within_30min": 1
+    },
+    "17031050900": {
+      "nearest_selective_transit_min": 8.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 8.4,
+      "n_selective_within_30min": 1
+    },
+    "17031051000": {
+      "nearest_selective_transit_min": 13.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 13.5,
+      "n_selective_within_30min": 1
+    },
+    "17031051100": {
+      "nearest_selective_transit_min": 13.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 13.6,
+      "n_selective_within_30min": 1
+    },
+    "17031051200": {
+      "nearest_selective_transit_min": 16.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 16.4,
+      "n_selective_within_30min": 1
+    },
+    "17031051300": {
+      "nearest_selective_transit_min": 20.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 20.9,
+      "n_selective_within_30min": 1
+    },
+    "17031051400": {
+      "nearest_selective_transit_min": 18.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 18.4,
+      "n_selective_within_30min": 1
+    },
+    "17031060100": {
+      "nearest_selective_transit_min": 25.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.3,
+      "n_selective_within_30min": 1
+    },
+    "17031060200": {
+      "nearest_selective_transit_min": 24.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 24.0,
+      "n_selective_within_30min": 1
+    },
+    "17031060300": {
+      "nearest_selective_transit_min": 15.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 15.1,
+      "n_selective_within_30min": 1
+    },
+    "17031060400": {
+      "nearest_selective_transit_min": 17.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 17.0,
+      "n_selective_within_30min": 1
+    },
+    "17031060500": {
+      "nearest_selective_transit_min": 22.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.2,
+      "n_selective_within_30min": 1
+    },
+    "17031060800": {
+      "nearest_selective_transit_min": 30.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 30.6,
+      "n_selective_within_30min": 0
+    },
+    "17031060900": {
+      "nearest_selective_transit_min": 27.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.2,
+      "n_selective_within_30min": 1
+    },
+    "17031061000": {
+      "nearest_selective_transit_min": 19.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.7,
+      "n_selective_within_30min": 1
+    },
+    "17031061100": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.6,
+      "n_selective_within_30min": 1
+    },
+    "17031061200": {
+      "nearest_selective_transit_min": 16.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 16.0,
+      "n_selective_within_30min": 1
+    },
+    "17031061500": {
+      "nearest_selective_transit_min": 16.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 16.0,
+      "n_selective_within_30min": 1
+    },
+    "17031061800": {
+      "nearest_selective_transit_min": 21.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 21.1,
+      "n_selective_within_30min": 1
+    },
+    "17031061901": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 1
+    },
+    "17031061902": {
+      "nearest_selective_transit_min": 28.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 28.7,
+      "n_selective_within_30min": 1
+    },
+    "17031062000": {
+      "nearest_selective_transit_min": 25.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 1
+    },
+    "17031062100": {
+      "nearest_selective_transit_min": 23.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 23.7,
+      "n_selective_within_30min": 1
+    },
+    "17031062200": {
+      "nearest_selective_transit_min": 23.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 23.0,
+      "n_selective_within_30min": 1
+    },
+    "17031062300": {
+      "nearest_selective_transit_min": 21.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 21.5,
+      "n_selective_within_30min": 1
+    },
+    "17031062400": {
+      "nearest_selective_transit_min": 19.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.9,
+      "n_selective_within_30min": 1
+    },
+    "17031062500": {
+      "nearest_selective_transit_min": 19.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.2,
+      "n_selective_within_30min": 1
+    },
+    "17031062600": {
+      "nearest_selective_transit_min": 22.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.6,
+      "n_selective_within_30min": 1
+    },
+    "17031062700": {
+      "nearest_selective_transit_min": 25.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.3,
+      "n_selective_within_30min": 1
+    },
+    "17031062800": {
+      "nearest_selective_transit_min": 26.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 26.4,
+      "n_selective_within_30min": 1
+    },
+    "17031062900": {
+      "nearest_selective_transit_min": 27.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.5,
+      "n_selective_within_30min": 1
+    },
+    "17031063000": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.9,
+      "n_selective_within_30min": 2
+    },
+    "17031063100": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 1
+    },
+    "17031063200": {
+      "nearest_selective_transit_min": 32.8,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 32.8,
+      "n_selective_within_30min": 0
+    },
+    "17031063301": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 27.9,
+      "n_selective_within_30min": 1
+    },
+    "17031063302": {
+      "nearest_selective_transit_min": 23.4,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 23.4,
+      "n_selective_within_30min": 1
+    },
+    "17031063303": {
+      "nearest_selective_transit_min": 30.9,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 30.9,
+      "n_selective_within_30min": 0
+    },
+    "17031063400": {
+      "nearest_selective_transit_min": 25.1,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 25.1,
+      "n_selective_within_30min": 2
+    },
+    "17031070101": {
+      "nearest_selective_transit_min": 28.2,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 1
+    },
+    "17031070102": {
+      "nearest_selective_transit_min": 24.6,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 24.6,
+      "n_selective_within_30min": 2
+    },
+    "17031070103": {
+      "nearest_selective_transit_min": 21.5,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 21.5,
+      "n_selective_within_30min": 1
+    },
+    "17031070200": {
+      "nearest_selective_transit_min": 24.4,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 24.4,
+      "n_selective_within_30min": 2
+    },
+    "17031070300": {
+      "nearest_selective_transit_min": 26.4,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 26.4,
+      "n_selective_within_30min": 1
+    },
+    "17031070400": {
+      "nearest_selective_transit_min": 29.2,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 29.2,
+      "n_selective_within_30min": 1
+    },
+    "17031070500": {
+      "nearest_selective_transit_min": 29.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 29.5,
+      "n_selective_within_30min": 1
+    },
+    "17031070600": {
+      "nearest_selective_transit_min": 28.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 28.0,
+      "n_selective_within_30min": 1
+    },
+    "17031070700": {
+      "nearest_selective_transit_min": 25.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 1
+    },
+    "17031071000": {
+      "nearest_selective_transit_min": 27.7,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 27.7,
+      "n_selective_within_30min": 1
+    },
+    "17031071100": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 22.0,
+      "n_selective_within_30min": 2
+    },
+    "17031071200": {
+      "nearest_selective_transit_min": 16.5,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 16.5,
+      "n_selective_within_30min": 2
+    },
+    "17031071300": {
+      "nearest_selective_transit_min": 14.7,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 14.7,
+      "n_selective_within_30min": 1
+    },
+    "17031071400": {
+      "nearest_selective_transit_min": 30.6,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 30.6,
+      "n_selective_within_30min": 0
+    },
+    "17031071500": {
+      "nearest_selective_transit_min": 22.5,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 22.5,
+      "n_selective_within_30min": 1
+    },
+    "17031071600": {
+      "nearest_selective_transit_min": 12.3,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 12.3,
+      "n_selective_within_30min": 1
+    },
+    "17031071700": {
+      "nearest_selective_transit_min": 11.1,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 11.1,
+      "n_selective_within_30min": 1
+    },
+    "17031071800": {
+      "nearest_selective_transit_min": 19.0,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 19.0,
+      "n_selective_within_30min": 2
+    },
+    "17031080100": {
+      "nearest_selective_transit_min": 15.7,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 15.7,
+      "n_selective_within_30min": 2
+    },
+    "17031080201": {
+      "nearest_selective_transit_min": 11.8,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 11.8,
+      "n_selective_within_30min": 2
+    },
+    "17031080202": {
+      "nearest_selective_transit_min": 13.5,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 13.5,
+      "n_selective_within_30min": 2
+    },
+    "17031080300": {
+      "nearest_selective_transit_min": 12.0,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 12.0,
+      "n_selective_within_30min": 2
+    },
+    "17031080400": {
+      "nearest_selective_transit_min": 9.5,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 9.5,
+      "n_selective_within_30min": 1
+    },
+    "17031081000": {
+      "nearest_selective_transit_min": 6.4,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 6.4,
+      "n_selective_within_30min": 2
+    },
+    "17031081100": {
+      "nearest_selective_transit_min": 10.8,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 10.8,
+      "n_selective_within_30min": 2
+    },
+    "17031081201": {
+      "nearest_selective_transit_min": 15.4,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 15.4,
+      "n_selective_within_30min": 2
+    },
+    "17031081202": {
+      "nearest_selective_transit_min": 18.7,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 18.7,
+      "n_selective_within_30min": 2
+    },
+    "17031081300": {
+      "nearest_selective_transit_min": 19.9,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 19.9,
+      "n_selective_within_30min": 2
+    },
+    "17031081401": {
+      "nearest_selective_transit_min": 19.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 19.0,
+      "n_selective_within_30min": 2
+    },
+    "17031081402": {
+      "nearest_selective_transit_min": 24.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 24.0,
+      "n_selective_within_30min": 2
+    },
+    "17031081403": {
+      "nearest_selective_transit_min": 25.1,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 25.1,
+      "n_selective_within_30min": 1
+    },
+    "17031081500": {
+      "nearest_selective_transit_min": 16.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 16.0,
+      "n_selective_within_30min": 2
+    },
+    "17031081600": {
+      "nearest_selective_transit_min": 13.1,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 13.1,
+      "n_selective_within_30min": 3
+    },
+    "17031081700": {
+      "nearest_selective_transit_min": 11.2,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 11.2,
+      "n_selective_within_30min": 3
+    },
+    "17031081800": {
+      "nearest_selective_transit_min": 10.1,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 10.1,
+      "n_selective_within_30min": 2
+    },
+    "17031081900": {
+      "nearest_selective_transit_min": 12.6,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 12.6,
+      "n_selective_within_30min": 2
+    },
+    "17031090100": {
+      "nearest_selective_transit_min": 63.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 63.9,
+      "n_selective_within_30min": 0
+    },
+    "17031090200": {
+      "nearest_selective_transit_min": 47.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 47.2,
+      "n_selective_within_30min": 0
+    },
+    "17031090300": {
+      "nearest_selective_transit_min": 50.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 50.5,
+      "n_selective_within_30min": 0
+    },
+    "17031100100": {
+      "nearest_selective_transit_min": 47.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 47.9,
+      "n_selective_within_30min": 0
+    },
+    "17031100200": {
+      "nearest_selective_transit_min": 48.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 48.3,
+      "n_selective_within_30min": 0
+    },
+    "17031100300": {
+      "nearest_selective_transit_min": 47.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 47.4,
+      "n_selective_within_30min": 0
+    },
+    "17031100400": {
+      "nearest_selective_transit_min": 52.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 52.4,
+      "n_selective_within_30min": 0
+    },
+    "17031100500": {
+      "nearest_selective_transit_min": 50.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 50.5,
+      "n_selective_within_30min": 0
+    },
+    "17031100600": {
+      "nearest_selective_transit_min": 43.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 43.3,
+      "n_selective_within_30min": 0
+    },
+    "17031100700": {
+      "nearest_selective_transit_min": 53.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 53.5,
+      "n_selective_within_30min": 0
+    },
+    "17031110100": {
+      "nearest_selective_transit_min": 37.6,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 37.6,
+      "n_selective_within_30min": 0
+    },
+    "17031110200": {
+      "nearest_selective_transit_min": 39.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 39.4,
+      "n_selective_within_30min": 0
+    },
+    "17031110300": {
+      "nearest_selective_transit_min": 40.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 40.0,
+      "n_selective_within_30min": 0
+    },
+    "17031110400": {
+      "nearest_selective_transit_min": 39.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 39.0,
+      "n_selective_within_30min": 0
+    },
+    "17031110501": {
+      "nearest_selective_transit_min": 26.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 26.8,
+      "n_selective_within_30min": 1
+    },
+    "17031110502": {
+      "nearest_selective_transit_min": 31.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 31.7,
+      "n_selective_within_30min": 0
+    },
+    "17031120100": {
+      "nearest_selective_transit_min": 38.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 38.7,
+      "n_selective_within_30min": 0
+    },
+    "17031120200": {
+      "nearest_selective_transit_min": 23.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 23.7,
+      "n_selective_within_30min": 1
+    },
+    "17031120300": {
+      "nearest_selective_transit_min": 23.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 23.0,
+      "n_selective_within_30min": 1
+    },
+    "17031120400": {
+      "nearest_selective_transit_min": 24.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 24.5,
+      "n_selective_within_30min": 1
+    },
+    "17031130100": {
+      "nearest_selective_transit_min": 17.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 17.3,
+      "n_selective_within_30min": 1
+    },
+    "17031130200": {
+      "nearest_selective_transit_min": 26.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 26.9,
+      "n_selective_within_30min": 1
+    },
+    "17031130300": {
+      "nearest_selective_transit_min": 11.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 11.9,
+      "n_selective_within_30min": 1
+    },
+    "17031140100": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 17.1,
+      "n_selective_within_30min": 2
+    },
+    "17031140200": {
+      "nearest_selective_transit_min": 12.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 12.1,
+      "n_selective_within_30min": 2
+    },
+    "17031140301": {
+      "nearest_selective_transit_min": 22.7,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 22.7,
+      "n_selective_within_30min": 1
+    },
+    "17031140302": {
+      "nearest_selective_transit_min": 19.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 19.8,
+      "n_selective_within_30min": 1
+    },
+    "17031140400": {
+      "nearest_selective_transit_min": 24.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 24.1,
+      "n_selective_within_30min": 1
+    },
+    "17031140500": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 27.9,
+      "n_selective_within_30min": 1
+    },
+    "17031140601": {
+      "nearest_selective_transit_min": 27.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 27.2,
+      "n_selective_within_30min": 1
+    },
+    "17031140602": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 22.0,
+      "n_selective_within_30min": 1
+    },
+    "17031140701": {
+      "nearest_selective_transit_min": 14.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 14.1,
+      "n_selective_within_30min": 2
+    },
+    "17031140702": {
+      "nearest_selective_transit_min": 15.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 15.5,
+      "n_selective_within_30min": 2
+    },
+    "17031140800": {
+      "nearest_selective_transit_min": 21.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 21.8,
+      "n_selective_within_30min": 2
+    },
+    "17031150200": {
+      "nearest_selective_transit_min": 33.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 33.5,
+      "n_selective_within_30min": 0
+    },
+    "17031150300": {
+      "nearest_selective_transit_min": 36.8,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 36.8,
+      "n_selective_within_30min": 0
+    },
+    "17031150401": {
+      "nearest_selective_transit_min": 43.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 43.4,
+      "n_selective_within_30min": 0
+    },
+    "17031150402": {
+      "nearest_selective_transit_min": 46.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 46.5,
+      "n_selective_within_30min": 0
+    },
+    "17031150501": {
+      "nearest_selective_transit_min": 47.3,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 47.3,
+      "n_selective_within_30min": 0
+    },
+    "17031150502": {
+      "nearest_selective_transit_min": 47.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 47.4,
+      "n_selective_within_30min": 0
+    },
+    "17031150600": {
+      "nearest_selective_transit_min": 36.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 36.8,
+      "n_selective_within_30min": 0
+    },
+    "17031150700": {
+      "nearest_selective_transit_min": 33.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 33.0,
+      "n_selective_within_30min": 0
+    },
+    "17031150800": {
+      "nearest_selective_transit_min": 31.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 31.2,
+      "n_selective_within_30min": 0
+    },
+    "17031151001": {
+      "nearest_selective_transit_min": 33.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 33.8,
+      "n_selective_within_30min": 0
+    },
+    "17031151002": {
+      "nearest_selective_transit_min": 29.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 29.8,
+      "n_selective_within_30min": 1
+    },
+    "17031151100": {
+      "nearest_selective_transit_min": 32.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 32.4,
+      "n_selective_within_30min": 0
+    },
+    "17031151200": {
+      "nearest_selective_transit_min": 36.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 36.3,
+      "n_selective_within_30min": 0
+    },
+    "17031160100": {
+      "nearest_selective_transit_min": 33.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 33.2,
+      "n_selective_within_30min": 0
+    },
+    "17031160200": {
+      "nearest_selective_transit_min": 31.2,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 31.2,
+      "n_selective_within_30min": 0
+    },
+    "17031160300": {
+      "nearest_selective_transit_min": 31.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 31.6,
+      "n_selective_within_30min": 0
+    },
+    "17031160400": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 28.1,
+      "n_selective_within_30min": 1
+    },
+    "17031160501": {
+      "nearest_selective_transit_min": 16.1,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 16.1,
+      "n_selective_within_30min": 2
+    },
+    "17031160502": {
+      "nearest_selective_transit_min": 18.4,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 18.4,
+      "n_selective_within_30min": 2
+    },
+    "17031160601": {
+      "nearest_selective_transit_min": 18.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 18.1,
+      "n_selective_within_30min": 2
+    },
+    "17031160602": {
+      "nearest_selective_transit_min": 15.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 15.9,
+      "n_selective_within_30min": 2
+    },
+    "17031160700": {
+      "nearest_selective_transit_min": 13.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 13.2,
+      "n_selective_within_30min": 2
+    },
+    "17031160800": {
+      "nearest_selective_transit_min": 15.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 15.7,
+      "n_selective_within_30min": 2
+    },
+    "17031160900": {
+      "nearest_selective_transit_min": 23.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 23.0,
+      "n_selective_within_30min": 1
+    },
+    "17031161000": {
+      "nearest_selective_transit_min": 24.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 24.1,
+      "n_selective_within_30min": 1
+    },
+    "17031161100": {
+      "nearest_selective_transit_min": 26.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 26.4,
+      "n_selective_within_30min": 1
+    },
+    "17031161200": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 1
+    },
+    "17031161300": {
+      "nearest_selective_transit_min": 24.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 24.5,
+      "n_selective_within_30min": 1
+    },
+    "17031170100": {
+      "nearest_selective_transit_min": 53.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 53.5,
+      "n_selective_within_30min": 0
+    },
+    "17031170200": {
+      "nearest_selective_transit_min": 38.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 38.6,
+      "n_selective_within_30min": 0
+    },
+    "17031170300": {
+      "nearest_selective_transit_min": 42.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 42.6,
+      "n_selective_within_30min": 0
+    },
+    "17031170400": {
+      "nearest_selective_transit_min": 45.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 45.7,
+      "n_selective_within_30min": 0
+    },
+    "17031170500": {
+      "nearest_selective_transit_min": 52.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 52.4,
+      "n_selective_within_30min": 0
+    },
+    "17031170600": {
+      "nearest_selective_transit_min": 49.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 49.2,
+      "n_selective_within_30min": 0
+    },
+    "17031170700": {
+      "nearest_selective_transit_min": 47.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 47.9,
+      "n_selective_within_30min": 0
+    },
+    "17031170800": {
+      "nearest_selective_transit_min": 45.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 45.8,
+      "n_selective_within_30min": 0
+    },
+    "17031170900": {
+      "nearest_selective_transit_min": 54.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 54.7,
+      "n_selective_within_30min": 0
+    },
+    "17031171000": {
+      "nearest_selective_transit_min": 42.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 42.7,
+      "n_selective_within_30min": 0
+    },
+    "17031171100": {
+      "nearest_selective_transit_min": 38.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 38.9,
+      "n_selective_within_30min": 0
+    },
+    "17031180100": {
+      "nearest_selective_transit_min": 51.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 51.8,
+      "n_selective_within_30min": 0
+    },
+    "17031190100": {
+      "nearest_selective_transit_min": 39.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 39.7,
+      "n_selective_within_30min": 0
+    },
+    "17031190200": {
+      "nearest_selective_transit_min": 40.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 40.2,
+      "n_selective_within_30min": 0
+    },
+    "17031190300": {
+      "nearest_selective_transit_min": 45.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 45.1,
+      "n_selective_within_30min": 0
+    },
+    "17031190401": {
+      "nearest_selective_transit_min": 44.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 44.8,
+      "n_selective_within_30min": 0
+    },
+    "17031190402": {
+      "nearest_selective_transit_min": 46.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 46.6,
+      "n_selective_within_30min": 0
+    },
+    "17031190601": {
+      "nearest_selective_transit_min": 46.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 46.9,
+      "n_selective_within_30min": 0
+    },
+    "17031190602": {
+      "nearest_selective_transit_min": 47.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 49.5,
+      "n_selective_within_30min": 0
+    },
+    "17031190701": {
+      "nearest_selective_transit_min": 48.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 48.1,
+      "n_selective_within_30min": 0
+    },
+    "17031190702": {
+      "nearest_selective_transit_min": 47.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 50.0,
+      "n_selective_within_30min": 0
+    },
+    "17031190800": {
+      "nearest_selective_transit_min": 43.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 45.6,
+      "n_selective_within_30min": 0
+    },
+    "17031190900": {
+      "nearest_selective_transit_min": 42.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 42.1,
+      "n_selective_within_30min": 0
+    },
+    "17031191000": {
+      "nearest_selective_transit_min": 36.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 46.1,
+      "n_selective_within_30min": 0
+    },
+    "17031191100": {
+      "nearest_selective_transit_min": 39.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 49.4,
+      "n_selective_within_30min": 0
+    },
+    "17031191200": {
+      "nearest_selective_transit_min": 38.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 52.5,
+      "n_selective_within_30min": 0
+    },
+    "17031191301": {
+      "nearest_selective_transit_min": 40.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 51.5,
+      "n_selective_within_30min": 0
+    },
+    "17031191302": {
+      "nearest_selective_transit_min": 35.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 49.9,
+      "n_selective_within_30min": 0
+    },
+    "17031200100": {
+      "nearest_selective_transit_min": 39.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 39.4,
+      "n_selective_within_30min": 0
+    },
+    "17031200200": {
+      "nearest_selective_transit_min": 41.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 41.8,
+      "n_selective_within_30min": 0
+    },
+    "17031200300": {
+      "nearest_selective_transit_min": 36.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 37.0,
+      "n_selective_within_30min": 0
+    },
+    "17031200401": {
+      "nearest_selective_transit_min": 38.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 43.0,
+      "n_selective_within_30min": 0
+    },
+    "17031200402": {
+      "nearest_selective_transit_min": 33.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 0
+    },
+    "17031210100": {
+      "nearest_selective_transit_min": 11.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 11.5,
+      "n_selective_within_30min": 1
+    },
+    "17031210400": {
+      "nearest_selective_transit_min": 32.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 32.5,
+      "n_selective_within_30min": 0
+    },
+    "17031210501": {
+      "nearest_selective_transit_min": 28.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 1
+    },
+    "17031210502": {
+      "nearest_selective_transit_min": 32.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 32.4,
+      "n_selective_within_30min": 0
+    },
+    "17031210601": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.6,
+      "n_selective_within_30min": 3
+    },
+    "17031210602": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.0,
+      "n_selective_within_30min": 3
+    },
+    "17031210700": {
+      "nearest_selective_transit_min": 21.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 21.3,
+      "n_selective_within_30min": 1
+    },
+    "17031210800": {
+      "nearest_selective_transit_min": 12.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 12.1,
+      "n_selective_within_30min": 2
+    },
+    "17031210900": {
+      "nearest_selective_transit_min": 17.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 17.0,
+      "n_selective_within_30min": 1
+    },
+    "17031220300": {
+      "nearest_selective_transit_min": 16.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 16.6,
+      "n_selective_within_30min": 2
+    },
+    "17031220400": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 17.1,
+      "n_selective_within_30min": 2
+    },
+    "17031220500": {
+      "nearest_selective_transit_min": 22.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.8,
+      "n_selective_within_30min": 1
+    },
+    "17031220601": {
+      "nearest_selective_transit_min": 24.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 26.9,
+      "n_selective_within_30min": 2
+    },
+    "17031220602": {
+      "nearest_selective_transit_min": 24.4,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 24.4,
+      "n_selective_within_30min": 2
+    },
+    "17031220701": {
+      "nearest_selective_transit_min": 32.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 32.9,
+      "n_selective_within_30min": 0
+    },
+    "17031220702": {
+      "nearest_selective_transit_min": 35.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 35.8,
+      "n_selective_within_30min": 0
+    },
+    "17031220901": {
+      "nearest_selective_transit_min": 29.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 38.0,
+      "n_selective_within_30min": 1
+    },
+    "17031220902": {
+      "nearest_selective_transit_min": 31.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.8,
+      "n_selective_within_30min": 0
+    },
+    "17031221000": {
+      "nearest_selective_transit_min": 23.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.3,
+      "n_selective_within_30min": 1
+    },
+    "17031221100": {
+      "nearest_selective_transit_min": 22.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 29.7,
+      "n_selective_within_30min": 2
+    },
+    "17031221200": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 27.1,
+      "n_selective_within_30min": 2
+    },
+    "17031221300": {
+      "nearest_selective_transit_min": 20.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 20.8,
+      "n_selective_within_30min": 2
+    },
+    "17031221400": {
+      "nearest_selective_transit_min": 21.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 21.0,
+      "n_selective_within_30min": 2
+    },
+    "17031221500": {
+      "nearest_selective_transit_min": 18.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 18.6,
+      "n_selective_within_30min": 1
+    },
+    "17031221600": {
+      "nearest_selective_transit_min": 19.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.7,
+      "n_selective_within_30min": 1
+    },
+    "17031222200": {
+      "nearest_selective_transit_min": 21.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 21.7,
+      "n_selective_within_30min": 1
+    },
+    "17031222500": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 23.9,
+      "n_selective_within_30min": 2
+    },
+    "17031222600": {
+      "nearest_selective_transit_min": 25.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 29.0,
+      "n_selective_within_30min": 2
+    },
+    "17031222700": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.1,
+      "n_selective_within_30min": 1
+    },
+    "17031222800": {
+      "nearest_selective_transit_min": 21.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 32.7,
+      "n_selective_within_30min": 1
+    },
+    "17031222900": {
+      "nearest_selective_transit_min": 26.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 38.7,
+      "n_selective_within_30min": 1
+    },
+    "17031230100": {
+      "nearest_selective_transit_min": 23.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.0,
+      "n_selective_within_30min": 1
+    },
+    "17031230200": {
+      "nearest_selective_transit_min": 17.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 33.3,
+      "n_selective_within_30min": 1
+    },
+    "17031230300": {
+      "nearest_selective_transit_min": 19.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 34.4,
+      "n_selective_within_30min": 1
+    },
+    "17031230400": {
+      "nearest_selective_transit_min": 26.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 1
+    },
+    "17031230500": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 47.9,
+      "n_selective_within_30min": 1
+    },
+    "17031230600": {
+      "nearest_selective_transit_min": 26.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 46.4,
+      "n_selective_within_30min": 1
+    },
+    "17031230700": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.6,
+      "n_selective_within_30min": 1
+    },
+    "17031230800": {
+      "nearest_selective_transit_min": 17.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 37.1,
+      "n_selective_within_30min": 1
+    },
+    "17031230900": {
+      "nearest_selective_transit_min": 15.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 35.1,
+      "n_selective_within_30min": 1
+    },
+    "17031231100": {
+      "nearest_selective_transit_min": 13.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 35.1,
+      "n_selective_within_30min": 1
+    },
+    "17031231200": {
+      "nearest_selective_transit_min": 19.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.3,
+      "n_selective_within_30min": 1
+    },
+    "17031231500": {
+      "nearest_selective_transit_min": 15.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 36.0,
+      "n_selective_within_30min": 1
+    },
+    "17031240200": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 23.2,
+      "n_selective_within_30min": 2
+    },
+    "17031240300": {
+      "nearest_selective_transit_min": 28.6,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 28.6,
+      "n_selective_within_30min": 1
+    },
+    "17031240500": {
+      "nearest_selective_transit_min": 24.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 24.8,
+      "n_selective_within_30min": 1
+    },
+    "17031240600": {
+      "nearest_selective_transit_min": 23.8,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 23.8,
+      "n_selective_within_30min": 2
+    },
+    "17031240700": {
+      "nearest_selective_transit_min": 22.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 2
+    },
+    "17031240800": {
+      "nearest_selective_transit_min": 22.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 26.3,
+      "n_selective_within_30min": 2
+    },
+    "17031240900": {
+      "nearest_selective_transit_min": 19.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 28.8,
+      "n_selective_within_30min": 2
+    },
+    "17031241000": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 2
+    },
+    "17031241100": {
+      "nearest_selective_transit_min": 26.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 26.1,
+      "n_selective_within_30min": 2
+    },
+    "17031241200": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.6,
+      "n_selective_within_30min": 3
+    },
+    "17031241300": {
+      "nearest_selective_transit_min": 29.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 29.6,
+      "n_selective_within_30min": 1
+    },
+    "17031241400": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 27.1,
+      "n_selective_within_30min": 3
+    },
+    "17031241500": {
+      "nearest_selective_transit_min": 22.6,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 22.6,
+      "n_selective_within_30min": 3
+    },
+    "17031241600": {
+      "nearest_selective_transit_min": 20.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 20.3,
+      "n_selective_within_30min": 2
+    },
+    "17031242000": {
+      "nearest_selective_transit_min": 17.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 17.3,
+      "n_selective_within_30min": 3
+    },
+    "17031242100": {
+      "nearest_selective_transit_min": 16.5,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 16.5,
+      "n_selective_within_30min": 3
+    },
+    "17031242200": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 22.0,
+      "n_selective_within_30min": 3
+    },
+    "17031242300": {
+      "nearest_selective_transit_min": 23.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 27.0,
+      "n_selective_within_30min": 3
+    },
+    "17031242400": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 28.1,
+      "n_selective_within_30min": 4
+    },
+    "17031242500": {
+      "nearest_selective_transit_min": 20.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 27.3,
+      "n_selective_within_30min": 3
+    },
+    "17031242600": {
+      "nearest_selective_transit_min": 18.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.6,
+      "n_selective_within_30min": 1
+    },
+    "17031242700": {
+      "nearest_selective_transit_min": 13.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 30.8,
+      "n_selective_within_30min": 1
+    },
+    "17031242800": {
+      "nearest_selective_transit_min": 20.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 26.0,
+      "n_selective_within_30min": 2
+    },
+    "17031242900": {
+      "nearest_selective_transit_min": 21.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 25.6,
+      "n_selective_within_30min": 2
+    },
+    "17031243000": {
+      "nearest_selective_transit_min": 23.1,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 23.1,
+      "n_selective_within_30min": 2
+    },
+    "17031243100": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 19.6,
+      "n_selective_within_30min": 2
+    },
+    "17031243200": {
+      "nearest_selective_transit_min": 14.4,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 14.4,
+      "n_selective_within_30min": 2
+    },
+    "17031243300": {
+      "nearest_selective_transit_min": 15.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 15.3,
+      "n_selective_within_30min": 2
+    },
+    "17031243400": {
+      "nearest_selective_transit_min": 20.6,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 20.6,
+      "n_selective_within_30min": 2
+    },
+    "17031243500": {
+      "nearest_selective_transit_min": 20.0,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 20.0,
+      "n_selective_within_30min": 4
+    },
+    "17031250200": {
+      "nearest_selective_transit_min": 36.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 51.6,
+      "n_selective_within_30min": 0
+    },
+    "17031250300": {
+      "nearest_selective_transit_min": 42.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 54.8,
+      "n_selective_within_30min": 0
+    },
+    "17031250400": {
+      "nearest_selective_transit_min": 43.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 47.1,
+      "n_selective_within_30min": 0
+    },
+    "17031250500": {
+      "nearest_selective_transit_min": 57.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 62.2,
+      "n_selective_within_30min": 0
+    },
+    "17031250600": {
+      "nearest_selective_transit_min": 40.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 54.6,
+      "n_selective_within_30min": 0
+    },
+    "17031250700": {
+      "nearest_selective_transit_min": 37.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 51.1,
+      "n_selective_within_30min": 0
+    },
+    "17031250800": {
+      "nearest_selective_transit_min": 34.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 48.4,
+      "n_selective_within_30min": 0
+    },
+    "17031251000": {
+      "nearest_selective_transit_min": 25.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 46.0,
+      "n_selective_within_30min": 1
+    },
+    "17031251100": {
+      "nearest_selective_transit_min": 28.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 47.2,
+      "n_selective_within_30min": 1
+    },
+    "17031251200": {
+      "nearest_selective_transit_min": 30.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 48.7,
+      "n_selective_within_30min": 0
+    },
+    "17031251300": {
+      "nearest_selective_transit_min": 34.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 48.7,
+      "n_selective_within_30min": 0
+    },
+    "17031251400": {
+      "nearest_selective_transit_min": 34.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 42.7,
+      "n_selective_within_30min": 0
+    },
+    "17031251500": {
+      "nearest_selective_transit_min": 29.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 44.4,
+      "n_selective_within_30min": 1
+    },
+    "17031251600": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 43.4,
+      "n_selective_within_30min": 1
+    },
+    "17031251700": {
+      "nearest_selective_transit_min": 24.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.5,
+      "n_selective_within_30min": 1
+    },
+    "17031251800": {
+      "nearest_selective_transit_min": 31.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 38.9,
+      "n_selective_within_30min": 0
+    },
+    "17031251900": {
+      "nearest_selective_transit_min": 33.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.5,
+      "n_selective_within_30min": 0
+    },
+    "17031252000": {
+      "nearest_selective_transit_min": 37.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 44.2,
+      "n_selective_within_30min": 0
+    },
+    "17031252101": {
+      "nearest_selective_transit_min": 35.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 35.3,
+      "n_selective_within_30min": 0
+    },
+    "17031252102": {
+      "nearest_selective_transit_min": 31.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.9,
+      "n_selective_within_30min": 0
+    },
+    "17031252201": {
+      "nearest_selective_transit_min": 29.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 29.3,
+      "n_selective_within_30min": 1
+    },
+    "17031252202": {
+      "nearest_selective_transit_min": 25.7,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 25.7,
+      "n_selective_within_30min": 2
+    },
+    "17031260100": {
+      "nearest_selective_transit_min": 25.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 30.8,
+      "n_selective_within_30min": 1
+    },
+    "17031260200": {
+      "nearest_selective_transit_min": 23.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 31.6,
+      "n_selective_within_30min": 1
+    },
+    "17031260300": {
+      "nearest_selective_transit_min": 24.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 33.9,
+      "n_selective_within_30min": 1
+    },
+    "17031260400": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 35.9,
+      "n_selective_within_30min": 1
+    },
+    "17031260500": {
+      "nearest_selective_transit_min": 23.5,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 23.5,
+      "n_selective_within_30min": 2
+    },
+    "17031260600": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 23.6,
+      "n_selective_within_30min": 2
+    },
+    "17031260700": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 21.2,
+      "n_selective_within_30min": 2
+    },
+    "17031260800": {
+      "nearest_selective_transit_min": 18.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 19.7,
+      "n_selective_within_30min": 2
+    },
+    "17031260900": {
+      "nearest_selective_transit_min": 24.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 30.6,
+      "n_selective_within_30min": 1
+    },
+    "17031261000": {
+      "nearest_selective_transit_min": 24.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 32.5,
+      "n_selective_within_30min": 1
+    },
+    "17031270500": {
+      "nearest_selective_transit_min": 18.4,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 20.7,
+      "n_selective_within_30min": 2
+    },
+    "17031271200": {
+      "nearest_selective_transit_min": 11.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 14.0,
+      "n_selective_within_30min": 2
+    },
+    "17031271300": {
+      "nearest_selective_transit_min": 11.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 15.5,
+      "n_selective_within_30min": 2
+    },
+    "17031271400": {
+      "nearest_selective_transit_min": 12.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 16.9,
+      "n_selective_within_30min": 2
+    },
+    "17031271500": {
+      "nearest_selective_transit_min": 14.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 27.7,
+      "n_selective_within_30min": 2
+    },
+    "17031271800": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 23.2,
+      "n_selective_within_30min": 2
+    },
+    "17031280100": {
+      "nearest_selective_transit_min": 18.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 18.8,
+      "n_selective_within_30min": 3
+    },
+    "17031280400": {
+      "nearest_selective_transit_min": 14.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 14.3,
+      "n_selective_within_30min": 2
+    },
+    "17031280800": {
+      "nearest_selective_transit_min": 11.5,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 11.5,
+      "n_selective_within_30min": 2
+    },
+    "17031280900": {
+      "nearest_selective_transit_min": 11.9,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 11.9,
+      "n_selective_within_30min": 2
+    },
+    "17031281900": {
+      "nearest_selective_transit_min": 15.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 15.2,
+      "n_selective_within_30min": 3
+    },
+    "17031282700": {
+      "nearest_selective_transit_min": 21.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 21.8,
+      "n_selective_within_30min": 2
+    },
+    "17031282800": {
+      "nearest_selective_transit_min": 21.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 21.3,
+      "n_selective_within_30min": 2
+    },
+    "17031283100": {
+      "nearest_selective_transit_min": 12.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 12.2,
+      "n_selective_within_30min": 1
+    },
+    "17031283200": {
+      "nearest_selective_transit_min": 19.4,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 19.4,
+      "n_selective_within_30min": 2
+    },
+    "17031283800": {
+      "nearest_selective_transit_min": 29.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 29.0,
+      "n_selective_within_30min": 1
+    },
+    "17031290900": {
+      "nearest_selective_transit_min": 30.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 42.1,
+      "n_selective_within_30min": 0
+    },
+    "17031291200": {
+      "nearest_selective_transit_min": 17.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 32.1,
+      "n_selective_within_30min": 1
+    },
+    "17031291600": {
+      "nearest_selective_transit_min": 28.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 30.4,
+      "n_selective_within_30min": 1
+    },
+    "17031292200": {
+      "nearest_selective_transit_min": 21.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 34.1,
+      "n_selective_within_30min": 1
+    },
+    "17031292400": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 35.2,
+      "n_selective_within_30min": 1
+    },
+    "17031292500": {
+      "nearest_selective_transit_min": 33.5,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 35.7,
+      "n_selective_within_30min": 0
+    },
+    "17031300500": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 42.5,
+      "n_selective_within_30min": 1
+    },
+    "17031300600": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 1
+    },
+    "17031300700": {
+      "nearest_selective_transit_min": 27.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.1,
+      "n_selective_within_30min": 1
+    },
+    "17031300800": {
+      "nearest_selective_transit_min": 25.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 37.9,
+      "n_selective_within_30min": 1
+    },
+    "17031300900": {
+      "nearest_selective_transit_min": 24.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 37.4,
+      "n_selective_within_30min": 1
+    },
+    "17031301100": {
+      "nearest_selective_transit_min": 31.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 38.2,
+      "n_selective_within_30min": 0
+    },
+    "17031301200": {
+      "nearest_selective_transit_min": 33.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 37.6,
+      "n_selective_within_30min": 0
+    },
+    "17031301600": {
+      "nearest_selective_transit_min": 31.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 44.9,
+      "n_selective_within_30min": 0
+    },
+    "17031301701": {
+      "nearest_selective_transit_min": 25.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 40.9,
+      "n_selective_within_30min": 2
+    },
+    "17031301702": {
+      "nearest_selective_transit_min": 23.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 41.8,
+      "n_selective_within_30min": 2
+    },
+    "17031301801": {
+      "nearest_selective_transit_min": 31.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 52.0,
+      "n_selective_within_30min": 0
+    },
+    "17031301802": {
+      "nearest_selective_transit_min": 24.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 48.2,
+      "n_selective_within_30min": 1
+    },
+    "17031301803": {
+      "nearest_selective_transit_min": 23.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 49.5,
+      "n_selective_within_30min": 1
+    },
+    "17031310200": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 27.8,
+      "n_selective_within_30min": 1
+    },
+    "17031310300": {
+      "nearest_selective_transit_min": 26.8,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 26.8,
+      "n_selective_within_30min": 1
+    },
+    "17031310400": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 2
+    },
+    "17031310500": {
+      "nearest_selective_transit_min": 29.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 29.2,
+      "n_selective_within_30min": 1
+    },
+    "17031310600": {
+      "nearest_selective_transit_min": 24.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 24.8,
+      "n_selective_within_30min": 2
+    },
+    "17031310700": {
+      "nearest_selective_transit_min": 18.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 18.8,
+      "n_selective_within_30min": 1
+    },
+    "17031310800": {
+      "nearest_selective_transit_min": 20.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 20.8,
+      "n_selective_within_30min": 1
+    },
+    "17031310900": {
+      "nearest_selective_transit_min": 25.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 25.3,
+      "n_selective_within_30min": 1
+    },
+    "17031320101": {
+      "nearest_selective_transit_min": 20.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 20.0,
+      "n_selective_within_30min": 3
+    },
+    "17031320102": {
+      "nearest_selective_transit_min": 13.1,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 13.1,
+      "n_selective_within_30min": 3
+    },
+    "17031320400": {
+      "nearest_selective_transit_min": 10.9,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 10.9,
+      "n_selective_within_30min": 2
+    },
+    "17031320600": {
+      "nearest_selective_transit_min": 13.2,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 13.2,
+      "n_selective_within_30min": 2
+    },
+    "17031330101": {
+      "nearest_selective_transit_min": 19.5,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 19.5,
+      "n_selective_within_30min": 1
+    },
+    "17031330102": {
+      "nearest_selective_transit_min": 11.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 11.6,
+      "n_selective_within_30min": 3
+    },
+    "17031330103": {
+      "nearest_selective_transit_min": 16.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 16.6,
+      "n_selective_within_30min": 2
+    },
+    "17031330200": {
+      "nearest_selective_transit_min": 29.8,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 29.8,
+      "n_selective_within_30min": 1
+    },
+    "17031340300": {
+      "nearest_selective_transit_min": 24.4,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 24.4,
+      "n_selective_within_30min": 1
+    },
+    "17031340400": {
+      "nearest_selective_transit_min": 21.7,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 21.7,
+      "n_selective_within_30min": 2
+    },
+    "17031340500": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 21.9,
+      "n_selective_within_30min": 2
+    },
+    "17031340600": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 21.9,
+      "n_selective_within_30min": 2
+    },
+    "17031350100": {
+      "nearest_selective_transit_min": 34.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 38.9,
+      "n_selective_within_30min": 0
+    },
+    "17031350400": {
+      "nearest_selective_transit_min": 20.3,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 20.3,
+      "n_selective_within_30min": 2
+    },
+    "17031351000": {
+      "nearest_selective_transit_min": 33.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 41.1,
+      "n_selective_within_30min": 0
+    },
+    "17031351100": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 30.5,
+      "n_selective_within_30min": 1
+    },
+    "17031351400": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 24.8,
+      "n_selective_within_30min": 2
+    },
+    "17031351500": {
+      "nearest_selective_transit_min": 22.9,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 22.9,
+      "n_selective_within_30min": 2
+    },
+    "17031360200": {
+      "nearest_selective_transit_min": 12.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 30.9,
+      "n_selective_within_30min": 1
+    },
+    "17031380100": {
+      "nearest_selective_transit_min": 12.2,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 35.9,
+      "n_selective_within_30min": 1
+    },
+    "17031380200": {
+      "nearest_selective_transit_min": 15.5,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.6,
+      "n_selective_within_30min": 1
+    },
+    "17031380600": {
+      "nearest_selective_transit_min": 16.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 27.0,
+      "n_selective_within_30min": 2
+    },
+    "17031381200": {
+      "nearest_selective_transit_min": 12.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.9,
+      "n_selective_within_30min": 1
+    },
+    "17031381400": {
+      "nearest_selective_transit_min": 16.9,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 31.5,
+      "n_selective_within_30min": 1
+    },
+    "17031381500": {
+      "nearest_selective_transit_min": 16.9,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 31.2,
+      "n_selective_within_30min": 1
+    },
+    "17031381700": {
+      "nearest_selective_transit_min": 21.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 28.4,
+      "n_selective_within_30min": 2
+    },
+    "17031381800": {
+      "nearest_selective_transit_min": 21.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 33.0,
+      "n_selective_within_30min": 1
+    },
+    "17031381900": {
+      "nearest_selective_transit_min": 16.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 35.8,
+      "n_selective_within_30min": 1
+    },
+    "17031390100": {
+      "nearest_selective_transit_min": 24.5,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.3,
+      "n_selective_within_30min": 1
+    },
+    "17031390200": {
+      "nearest_selective_transit_min": 6.0,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.4,
+      "n_selective_within_30min": 1
+    },
+    "17031390300": {
+      "nearest_selective_transit_min": 1.6,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 34.1,
+      "n_selective_within_30min": 1
+    },
+    "17031390400": {
+      "nearest_selective_transit_min": 12.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.5,
+      "n_selective_within_30min": 1
+    },
+    "17031390500": {
+      "nearest_selective_transit_min": 16.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 30.6,
+      "n_selective_within_30min": 1
+    },
+    "17031390600": {
+      "nearest_selective_transit_min": 16.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 2
+    },
+    "17031390700": {
+      "nearest_selective_transit_min": 27.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 30.2,
+      "n_selective_within_30min": 1
+    },
+    "17031400300": {
+      "nearest_selective_transit_min": 22.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 38.5,
+      "n_selective_within_30min": 1
+    },
+    "17031400400": {
+      "nearest_selective_transit_min": 24.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 36.6,
+      "n_selective_within_30min": 1
+    },
+    "17031400500": {
+      "nearest_selective_transit_min": 28.5,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 35.0,
+      "n_selective_within_30min": 1
+    },
+    "17031400800": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 35.4,
+      "n_selective_within_30min": 2
+    },
+    "17031410100": {
+      "nearest_selective_transit_min": 31.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.3,
+      "n_selective_within_30min": 0
+    },
+    "17031410200": {
+      "nearest_selective_transit_min": 18.8,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 24.5,
+      "n_selective_within_30min": 3
+    },
+    "17031410500": {
+      "nearest_selective_transit_min": 14.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.6,
+      "n_selective_within_30min": 1
+    },
+    "17031410600": {
+      "nearest_selective_transit_min": 19.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.5,
+      "n_selective_within_30min": 1
+    },
+    "17031410700": {
+      "nearest_selective_transit_min": 24.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 30.4,
+      "n_selective_within_30min": 2
+    },
+    "17031410800": {
+      "nearest_selective_transit_min": 22.8,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 28.3,
+      "n_selective_within_30min": 3
+    },
+    "17031410900": {
+      "nearest_selective_transit_min": 30.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 33.5,
+      "n_selective_within_30min": 0
+    },
+    "17031411000": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 1
+    },
+    "17031411100": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 34.4,
+      "n_selective_within_30min": 2
+    },
+    "17031411200": {
+      "nearest_selective_transit_min": 25.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.3,
+      "n_selective_within_30min": 2
+    },
+    "17031420100": {
+      "nearest_selective_transit_min": 22.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.4,
+      "n_selective_within_30min": 1
+    },
+    "17031420200": {
+      "nearest_selective_transit_min": 24.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.6,
+      "n_selective_within_30min": 2
+    },
+    "17031420300": {
+      "nearest_selective_transit_min": 26.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 2
+    },
+    "17031420400": {
+      "nearest_selective_transit_min": 20.8,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 38.7,
+      "n_selective_within_30min": 2
+    },
+    "17031420500": {
+      "nearest_selective_transit_min": 21.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 36.9,
+      "n_selective_within_30min": 1
+    },
+    "17031420600": {
+      "nearest_selective_transit_min": 26.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 35.2,
+      "n_selective_within_30min": 2
+    },
+    "17031420700": {
+      "nearest_selective_transit_min": 25.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 37.9,
+      "n_selective_within_30min": 2
+    },
+    "17031420800": {
+      "nearest_selective_transit_min": 20.8,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.9,
+      "n_selective_within_30min": 2
+    },
+    "17031421200": {
+      "nearest_selective_transit_min": 18.5,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.5,
+      "n_selective_within_30min": 2
+    },
+    "17031430101": {
+      "nearest_selective_transit_min": 8.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 30.2,
+      "n_selective_within_30min": 1
+    },
+    "17031430102": {
+      "nearest_selective_transit_min": 16.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 35.4,
+      "n_selective_within_30min": 1
+    },
+    "17031430200": {
+      "nearest_selective_transit_min": 10.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 35.2,
+      "n_selective_within_30min": 1
+    },
+    "17031430300": {
+      "nearest_selective_transit_min": 17.8,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.2,
+      "n_selective_within_30min": 1
+    },
+    "17031430400": {
+      "nearest_selective_transit_min": 10.5,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 43.6,
+      "n_selective_within_30min": 1
+    },
+    "17031430500": {
+      "nearest_selective_transit_min": 8.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 35.7,
+      "n_selective_within_30min": 1
+    },
+    "17031430600": {
+      "nearest_selective_transit_min": 8.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 34.8,
+      "n_selective_within_30min": 1
+    },
+    "17031430700": {
+      "nearest_selective_transit_min": 17.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 33.4,
+      "n_selective_within_30min": 1
+    },
+    "17031430800": {
+      "nearest_selective_transit_min": 8.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 36.8,
+      "n_selective_within_30min": 1
+    },
+    "17031430900": {
+      "nearest_selective_transit_min": 8.0,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 37.1,
+      "n_selective_within_30min": 1
+    },
+    "17031431200": {
+      "nearest_selective_transit_min": 10.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 36.4,
+      "n_selective_within_30min": 1
+    },
+    "17031431301": {
+      "nearest_selective_transit_min": 16.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 44.3,
+      "n_selective_within_30min": 1
+    },
+    "17031431302": {
+      "nearest_selective_transit_min": 7.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 38.9,
+      "n_selective_within_30min": 1
+    },
+    "17031431400": {
+      "nearest_selective_transit_min": 28.8,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 51.1,
+      "n_selective_within_30min": 1
+    },
+    "17031440101": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 45.6,
+      "n_selective_within_30min": 1
+    },
+    "17031440102": {
+      "nearest_selective_transit_min": 27.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 47.9,
+      "n_selective_within_30min": 2
+    },
+    "17031440201": {
+      "nearest_selective_transit_min": 23.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 42.4,
+      "n_selective_within_30min": 1
+    },
+    "17031440202": {
+      "nearest_selective_transit_min": 28.3,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 45.0,
+      "n_selective_within_30min": 2
+    },
+    "17031440300": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.9,
+      "n_selective_within_30min": 1
+    },
+    "17031440600": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 41.4,
+      "n_selective_within_30min": 1
+    },
+    "17031440700": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 42.0,
+      "n_selective_within_30min": 2
+    },
+    "17031440800": {
+      "nearest_selective_transit_min": 21.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 50.2,
+      "n_selective_within_30min": 2
+    },
+    "17031440900": {
+      "nearest_selective_transit_min": 24.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 50.6,
+      "n_selective_within_30min": 1
+    },
+    "17031450300": {
+      "nearest_selective_transit_min": 13.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 43.5,
+      "n_selective_within_30min": 1
+    },
+    "17031460100": {
+      "nearest_selective_transit_min": 31.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 54.8,
+      "n_selective_within_30min": 0
+    },
+    "17031460200": {
+      "nearest_selective_transit_min": 24.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 46.3,
+      "n_selective_within_30min": 1
+    },
+    "17031460301": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 50.8,
+      "n_selective_within_30min": 1
+    },
+    "17031460302": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 49.9,
+      "n_selective_within_30min": 1
+    },
+    "17031460400": {
+      "nearest_selective_transit_min": 20.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 48.5,
+      "n_selective_within_30min": 1
+    },
+    "17031460500": {
+      "nearest_selective_transit_min": 10.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 38.6,
+      "n_selective_within_30min": 1
+    },
+    "17031460800": {
+      "nearest_selective_transit_min": 24.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 48.0,
+      "n_selective_within_30min": 1
+    },
+    "17031461000": {
+      "nearest_selective_transit_min": 27.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 54.0,
+      "n_selective_within_30min": 1
+    },
+    "17031470100": {
+      "nearest_selective_transit_min": 26.9,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 49.1,
+      "n_selective_within_30min": 1
+    },
+    "17031480100": {
+      "nearest_selective_transit_min": 10.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.0,
+      "n_selective_within_30min": 1
+    },
+    "17031480200": {
+      "nearest_selective_transit_min": 23.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 48.1,
+      "n_selective_within_30min": 1
+    },
+    "17031480300": {
+      "nearest_selective_transit_min": 25.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 54.6,
+      "n_selective_within_30min": 1
+    },
+    "17031480400": {
+      "nearest_selective_transit_min": 13.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 42.4,
+      "n_selective_within_30min": 1
+    },
+    "17031480500": {
+      "nearest_selective_transit_min": 24.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 52.1,
+      "n_selective_within_30min": 1
+    },
+    "17031490200": {
+      "nearest_selective_transit_min": 13.2,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 44.0,
+      "n_selective_within_30min": 1
+    },
+    "17031490500": {
+      "nearest_selective_transit_min": 9.7,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 44.6,
+      "n_selective_within_30min": 1
+    },
+    "17031490600": {
+      "nearest_selective_transit_min": 21.2,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 41.1,
+      "n_selective_within_30min": 1
+    },
+    "17031490700": {
+      "nearest_selective_transit_min": 20.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 50.6,
+      "n_selective_within_30min": 1
+    },
+    "17031490800": {
+      "nearest_selective_transit_min": 8.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 46.2,
+      "n_selective_within_30min": 1
+    },
+    "17031490901": {
+      "nearest_selective_transit_min": 9.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 49.9,
+      "n_selective_within_30min": 1
+    },
+    "17031490902": {
+      "nearest_selective_transit_min": 7.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 49.2,
+      "n_selective_within_30min": 1
+    },
+    "17031491000": {
+      "nearest_selective_transit_min": 15.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 52.4,
+      "n_selective_within_30min": 1
+    },
+    "17031491100": {
+      "nearest_selective_transit_min": 17.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 55.5,
+      "n_selective_within_30min": 1
+    },
+    "17031491200": {
+      "nearest_selective_transit_min": 12.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 59.3,
+      "n_selective_within_30min": 1
+    },
+    "17031491300": {
+      "nearest_selective_transit_min": 9.9,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 56.4,
+      "n_selective_within_30min": 1
+    },
+    "17031491400": {
+      "nearest_selective_transit_min": 8.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 51.9,
+      "n_selective_within_30min": 1
+    },
+    "17031500100": {
+      "nearest_selective_transit_min": 23.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 56.5,
+      "n_selective_within_30min": 1
+    },
+    "17031500200": {
+      "nearest_selective_transit_min": 24.3,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 74.3,
+      "n_selective_within_30min": 1
+    },
+    "17031500300": {
+      "nearest_selective_transit_min": 18.0,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 65.8,
+      "n_selective_within_30min": 1
+    },
+    "17031510100": {
+      "nearest_selective_transit_min": 33.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 57.7,
+      "n_selective_within_30min": 0
+    },
+    "17031510200": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 47.4,
+      "n_selective_within_30min": 1
+    },
+    "17031510300": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 45.0,
+      "n_selective_within_30min": 1
+    },
+    "17031520100": {
+      "nearest_selective_transit_min": 44.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 68.2,
+      "n_selective_within_30min": 0
+    },
+    "17031520200": {
+      "nearest_selective_transit_min": 43.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 67.0,
+      "n_selective_within_30min": 0
+    },
+    "17031520300": {
+      "nearest_selective_transit_min": 32.0,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 59.4,
+      "n_selective_within_30min": 0
+    },
+    "17031520400": {
+      "nearest_selective_transit_min": 30.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 58.8,
+      "n_selective_within_30min": 0
+    },
+    "17031520500": {
+      "nearest_selective_transit_min": 40.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 68.1,
+      "n_selective_within_30min": 0
+    },
+    "17031520600": {
+      "nearest_selective_transit_min": 40.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 68.7,
+      "n_selective_within_30min": 0
+    },
+    "17031530100": {
+      "nearest_selective_transit_min": 12.9,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 54.8,
+      "n_selective_within_30min": 1
+    },
+    "17031530200": {
+      "nearest_selective_transit_min": 16.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 63.4,
+      "n_selective_within_30min": 1
+    },
+    "17031530300": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 70.6,
+      "n_selective_within_30min": 1
+    },
+    "17031530400": {
+      "nearest_selective_transit_min": 36.0,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 73.7,
+      "n_selective_within_30min": 0
+    },
+    "17031530501": {
+      "nearest_selective_transit_min": 22.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 63.0,
+      "n_selective_within_30min": 1
+    },
+    "17031530502": {
+      "nearest_selective_transit_min": 20.3,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 64.9,
+      "n_selective_within_30min": 1
+    },
+    "17031530503": {
+      "nearest_selective_transit_min": 28.3,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 63.6,
+      "n_selective_within_30min": 1
+    },
+    "17031530600": {
+      "nearest_selective_transit_min": 17.0,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 61.1,
+      "n_selective_within_30min": 1
+    },
+    "17031540101": {
+      "nearest_selective_transit_min": 31.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 75.2,
+      "n_selective_within_30min": 0
+    },
+    "17031540102": {
+      "nearest_selective_transit_min": 47.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 94.4,
+      "n_selective_within_30min": 0
+    },
+    "17031550100": {
+      "nearest_selective_transit_min": 50.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 73.3,
+      "n_selective_within_30min": 0
+    },
+    "17031550200": {
+      "nearest_selective_transit_min": 85.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 107.1,
+      "n_selective_within_30min": 0
+    },
+    "17031560100": {
+      "nearest_selective_transit_min": 30.2,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 61.1,
+      "n_selective_within_30min": 0
+    },
+    "17031560200": {
+      "nearest_selective_transit_min": 29.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 59.8,
+      "n_selective_within_30min": 1
+    },
+    "17031560300": {
+      "nearest_selective_transit_min": 27.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 56.2,
+      "n_selective_within_30min": 1
+    },
+    "17031560400": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 54.0,
+      "n_selective_within_30min": 1
+    },
+    "17031560700": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 53.6,
+      "n_selective_within_30min": 1
+    },
+    "17031560800": {
+      "nearest_selective_transit_min": 27.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 60.4,
+      "n_selective_within_30min": 1
+    },
+    "17031560900": {
+      "nearest_selective_transit_min": 30.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 66.0,
+      "n_selective_within_30min": 0
+    },
+    "17031561000": {
+      "nearest_selective_transit_min": 30.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 65.5,
+      "n_selective_within_30min": 0
+    },
+    "17031561100": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 61.9,
+      "n_selective_within_30min": 1
+    },
+    "17031570100": {
+      "nearest_selective_transit_min": 21.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 55.8,
+      "n_selective_within_30min": 1
+    },
+    "17031570200": {
+      "nearest_selective_transit_min": 20.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 54.9,
+      "n_selective_within_30min": 1
+    },
+    "17031570300": {
+      "nearest_selective_transit_min": 15.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 50.1,
+      "n_selective_within_30min": 1
+    },
+    "17031570400": {
+      "nearest_selective_transit_min": 12.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 46.1,
+      "n_selective_within_30min": 1
+    },
+    "17031570500": {
+      "nearest_selective_transit_min": 14.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 46.4,
+      "n_selective_within_30min": 1
+    },
+    "17031580100": {
+      "nearest_selective_transit_min": 30.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 35.9,
+      "n_selective_within_30min": 0
+    },
+    "17031580200": {
+      "nearest_selective_transit_min": 36.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.6,
+      "n_selective_within_30min": 0
+    },
+    "17031580300": {
+      "nearest_selective_transit_min": 35.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 43.2,
+      "n_selective_within_30min": 0
+    },
+    "17031580400": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 47.4,
+      "n_selective_within_30min": 1
+    },
+    "17031580501": {
+      "nearest_selective_transit_min": 21.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 40.7,
+      "n_selective_within_30min": 1
+    },
+    "17031580502": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 44.4,
+      "n_selective_within_30min": 1
+    },
+    "17031580600": {
+      "nearest_selective_transit_min": 28.2,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 44.2,
+      "n_selective_within_30min": 1
+    },
+    "17031580700": {
+      "nearest_selective_transit_min": 29.1,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 42.5,
+      "n_selective_within_30min": 1
+    },
+    "17031580800": {
+      "nearest_selective_transit_min": 19.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 42.0,
+      "n_selective_within_30min": 1
+    },
+    "17031590500": {
+      "nearest_selective_transit_min": 32.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 33.9,
+      "n_selective_within_30min": 0
+    },
+    "17031590600": {
+      "nearest_selective_transit_min": 34.1,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 34.1,
+      "n_selective_within_30min": 0
+    },
+    "17031590700": {
+      "nearest_selective_transit_min": 31.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 34.5,
+      "n_selective_within_30min": 0
+    },
+    "17031600400": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 1
+    },
+    "17031600600": {
+      "nearest_selective_transit_min": 24.7,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 24.7,
+      "n_selective_within_30min": 1
+    },
+    "17031600700": {
+      "nearest_selective_transit_min": 25.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 25.0,
+      "n_selective_within_30min": 1
+    },
+    "17031600900": {
+      "nearest_selective_transit_min": 30.7,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 30.7,
+      "n_selective_within_30min": 0
+    },
+    "17031610300": {
+      "nearest_selective_transit_min": 30.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 46.1,
+      "n_selective_within_30min": 0
+    },
+    "17031610400": {
+      "nearest_selective_transit_min": 22.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 39.6,
+      "n_selective_within_30min": 1
+    },
+    "17031610800": {
+      "nearest_selective_transit_min": 25.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 32.0,
+      "n_selective_within_30min": 1
+    },
+    "17031611200": {
+      "nearest_selective_transit_min": 21.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 40.0,
+      "n_selective_within_30min": 1
+    },
+    "17031611300": {
+      "nearest_selective_transit_min": 19.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 1
+    },
+    "17031611400": {
+      "nearest_selective_transit_min": 13.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 42.5,
+      "n_selective_within_30min": 1
+    },
+    "17031611500": {
+      "nearest_selective_transit_min": 15.3,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 45.7,
+      "n_selective_within_30min": 1
+    },
+    "17031611600": {
+      "nearest_selective_transit_min": 11.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 45.4,
+      "n_selective_within_30min": 2
+    },
+    "17031611700": {
+      "nearest_selective_transit_min": 11.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.9,
+      "n_selective_within_30min": 2
+    },
+    "17031611800": {
+      "nearest_selective_transit_min": 16.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 2
+    },
+    "17031611900": {
+      "nearest_selective_transit_min": 23.4,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.9,
+      "n_selective_within_30min": 1
+    },
+    "17031612000": {
+      "nearest_selective_transit_min": 24.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.4,
+      "n_selective_within_30min": 1
+    },
+    "17031612100": {
+      "nearest_selective_transit_min": 27.3,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 35.5,
+      "n_selective_within_30min": 1
+    },
+    "17031612200": {
+      "nearest_selective_transit_min": 29.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.2,
+      "n_selective_within_30min": 1
+    },
+    "17031620100": {
+      "nearest_selective_transit_min": 11.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 49.5,
+      "n_selective_within_30min": 1
+    },
+    "17031620200": {
+      "nearest_selective_transit_min": 11.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 47.7,
+      "n_selective_within_30min": 1
+    },
+    "17031620300": {
+      "nearest_selective_transit_min": 9.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 54.0,
+      "n_selective_within_30min": 2
+    },
+    "17031620400": {
+      "nearest_selective_transit_min": 9.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 50.5,
+      "n_selective_within_30min": 2
+    },
+    "17031630300": {
+      "nearest_selective_transit_min": 16.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 47.5,
+      "n_selective_within_30min": 2
+    },
+    "17031630400": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 46.4,
+      "n_selective_within_30min": 2
+    },
+    "17031630500": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 43.9,
+      "n_selective_within_30min": 2
+    },
+    "17031630600": {
+      "nearest_selective_transit_min": 20.2,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 40.6,
+      "n_selective_within_30min": 2
+    },
+    "17031630800": {
+      "nearest_selective_transit_min": 18.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 49.8,
+      "n_selective_within_30min": 2
+    },
+    "17031630900": {
+      "nearest_selective_transit_min": 13.9,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 50.2,
+      "n_selective_within_30min": 2
+    },
+    "17031640100": {
+      "nearest_selective_transit_min": 20.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 47.0,
+      "n_selective_within_30min": 1
+    },
+    "17031640300": {
+      "nearest_selective_transit_min": 29.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 59.2,
+      "n_selective_within_30min": 1
+    },
+    "17031640400": {
+      "nearest_selective_transit_min": 36.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 62.7,
+      "n_selective_within_30min": 0
+    },
+    "17031640500": {
+      "nearest_selective_transit_min": 32.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 59.1,
+      "n_selective_within_30min": 0
+    },
+    "17031640600": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 55.2,
+      "n_selective_within_30min": 1
+    },
+    "17031640700": {
+      "nearest_selective_transit_min": 25.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 52.5,
+      "n_selective_within_30min": 1
+    },
+    "17031640800": {
+      "nearest_selective_transit_min": 20.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 48.8,
+      "n_selective_within_30min": 1
+    },
+    "17031650100": {
+      "nearest_selective_transit_min": 11.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 54.1,
+      "n_selective_within_30min": 2
+    },
+    "17031650200": {
+      "nearest_selective_transit_min": 14.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 54.0,
+      "n_selective_within_30min": 2
+    },
+    "17031650301": {
+      "nearest_selective_transit_min": 16.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 59.1,
+      "n_selective_within_30min": 2
+    },
+    "17031650302": {
+      "nearest_selective_transit_min": 13.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 56.3,
+      "n_selective_within_30min": 2
+    },
+    "17031650400": {
+      "nearest_selective_transit_min": 18.8,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 61.1,
+      "n_selective_within_30min": 2
+    },
+    "17031650500": {
+      "nearest_selective_transit_min": 28.3,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 58.9,
+      "n_selective_within_30min": 1
+    },
+    "17031660301": {
+      "nearest_selective_transit_min": 15.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 51.4,
+      "n_selective_within_30min": 2
+    },
+    "17031660302": {
+      "nearest_selective_transit_min": 17.3,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.6,
+      "n_selective_within_30min": 2
+    },
+    "17031660400": {
+      "nearest_selective_transit_min": 18.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 53.4,
+      "n_selective_within_30min": 2
+    },
+    "17031660500": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 57.8,
+      "n_selective_within_30min": 2
+    },
+    "17031660600": {
+      "nearest_selective_transit_min": 14.4,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 49.2,
+      "n_selective_within_30min": 2
+    },
+    "17031660700": {
+      "nearest_selective_transit_min": 14.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.7,
+      "n_selective_within_30min": 1
+    },
+    "17031660800": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 49.8,
+      "n_selective_within_30min": 2
+    },
+    "17031660900": {
+      "nearest_selective_transit_min": null,
+      "sat_of_nearest_selective_transit": null,
+      "transit_min_to_nearest_elite": null,
+      "n_selective_within_30min": 0
+    },
+    "17031661000": {
+      "nearest_selective_transit_min": 22.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 56.2,
+      "n_selective_within_30min": 1
+    },
+    "17031661100": {
+      "nearest_selective_transit_min": 27.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 56.0,
+      "n_selective_within_30min": 2
+    },
+    "17031670100": {
+      "nearest_selective_transit_min": 16.4,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 38.3,
+      "n_selective_within_30min": 1
+    },
+    "17031670200": {
+      "nearest_selective_transit_min": 14.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 39.6,
+      "n_selective_within_30min": 2
+    },
+    "17031670300": {
+      "nearest_selective_transit_min": 17.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 2
+    },
+    "17031670400": {
+      "nearest_selective_transit_min": 11.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 42.6,
+      "n_selective_within_30min": 2
+    },
+    "17031670500": {
+      "nearest_selective_transit_min": 11.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 40.6,
+      "n_selective_within_30min": 2
+    },
+    "17031670600": {
+      "nearest_selective_transit_min": 1.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 44.2,
+      "n_selective_within_30min": 2
+    },
+    "17031670700": {
+      "nearest_selective_transit_min": 7.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 44.0,
+      "n_selective_within_30min": 2
+    },
+    "17031670800": {
+      "nearest_selective_transit_min": 12.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.9,
+      "n_selective_within_30min": 2
+    },
+    "17031670900": {
+      "nearest_selective_transit_min": 18.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 40.0,
+      "n_selective_within_30min": 1
+    },
+    "17031671100": {
+      "nearest_selective_transit_min": 12.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 40.4,
+      "n_selective_within_30min": 1
+    },
+    "17031671200": {
+      "nearest_selective_transit_min": 13.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.9,
+      "n_selective_within_30min": 1
+    },
+    "17031671300": {
+      "nearest_selective_transit_min": 11.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 47.6,
+      "n_selective_within_30min": 1
+    },
+    "17031671400": {
+      "nearest_selective_transit_min": 8.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 49.5,
+      "n_selective_within_30min": 1
+    },
+    "17031671500": {
+      "nearest_selective_transit_min": 12.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 43.5,
+      "n_selective_within_30min": 1
+    },
+    "17031671600": {
+      "nearest_selective_transit_min": 16.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.5,
+      "n_selective_within_30min": 1
+    },
+    "17031671800": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 48.5,
+      "n_selective_within_30min": 1
+    },
+    "17031671900": {
+      "nearest_selective_transit_min": 20.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 51.9,
+      "n_selective_within_30min": 1
+    },
+    "17031672000": {
+      "nearest_selective_transit_min": 12.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 53.0,
+      "n_selective_within_30min": 1
+    },
+    "17031680500": {
+      "nearest_selective_transit_min": 18.1,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.8,
+      "n_selective_within_30min": 1
+    },
+    "17031680600": {
+      "nearest_selective_transit_min": 17.1,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 38.8,
+      "n_selective_within_30min": 1
+    },
+    "17031680900": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 35.5,
+      "n_selective_within_30min": 1
+    },
+    "17031681000": {
+      "nearest_selective_transit_min": 18.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 37.7,
+      "n_selective_within_30min": 1
+    },
+    "17031681100": {
+      "nearest_selective_transit_min": 25.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.1,
+      "n_selective_within_30min": 1
+    },
+    "17031681200": {
+      "nearest_selective_transit_min": 28.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 33.4,
+      "n_selective_within_30min": 1
+    },
+    "17031681300": {
+      "nearest_selective_transit_min": 29.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 43.2,
+      "n_selective_within_30min": 1
+    },
+    "17031681400": {
+      "nearest_selective_transit_min": 28.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 45.6,
+      "n_selective_within_30min": 1
+    },
+    "17031690300": {
+      "nearest_selective_transit_min": 22.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 29.8,
+      "n_selective_within_30min": 2
+    },
+    "17031690400": {
+      "nearest_selective_transit_min": 17.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 32.0,
+      "n_selective_within_30min": 1
+    },
+    "17031690500": {
+      "nearest_selective_transit_min": 17.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 38.0,
+      "n_selective_within_30min": 1
+    },
+    "17031690900": {
+      "nearest_selective_transit_min": 16.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.3,
+      "n_selective_within_30min": 1
+    },
+    "17031691000": {
+      "nearest_selective_transit_min": 19.2,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 36.9,
+      "n_selective_within_30min": 1
+    },
+    "17031691100": {
+      "nearest_selective_transit_min": 29.3,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 38.9,
+      "n_selective_within_30min": 1
+    },
+    "17031691200": {
+      "nearest_selective_transit_min": 26.4,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 35.5,
+      "n_selective_within_30min": 1
+    },
+    "17031691300": {
+      "nearest_selective_transit_min": 19.0,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 38.0,
+      "n_selective_within_30min": 1
+    },
+    "17031691400": {
+      "nearest_selective_transit_min": 16.7,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 42.6,
+      "n_selective_within_30min": 1
+    },
+    "17031691500": {
+      "nearest_selective_transit_min": 14.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 48.5,
+      "n_selective_within_30min": 1
+    },
+    "17031700100": {
+      "nearest_selective_transit_min": 37.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 65.0,
+      "n_selective_within_30min": 0
+    },
+    "17031700200": {
+      "nearest_selective_transit_min": 27.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 71.1,
+      "n_selective_within_30min": 1
+    },
+    "17031700301": {
+      "nearest_selective_transit_min": 29.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 71.2,
+      "n_selective_within_30min": 1
+    },
+    "17031700302": {
+      "nearest_selective_transit_min": 32.4,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 74.8,
+      "n_selective_within_30min": 0
+    },
+    "17031700401": {
+      "nearest_selective_transit_min": 31.0,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 70.7,
+      "n_selective_within_30min": 0
+    },
+    "17031700402": {
+      "nearest_selective_transit_min": 35.5,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 70.9,
+      "n_selective_within_30min": 0
+    },
+    "17031700501": {
+      "nearest_selective_transit_min": 34.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 61.0,
+      "n_selective_within_30min": 0
+    },
+    "17031700502": {
+      "nearest_selective_transit_min": 41.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 60.3,
+      "n_selective_within_30min": 0
+    },
+    "17031710100": {
+      "nearest_selective_transit_min": 33.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 41.8,
+      "n_selective_within_30min": 0
+    },
+    "17031710200": {
+      "nearest_selective_transit_min": 28.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.2,
+      "n_selective_within_30min": 1
+    },
+    "17031710300": {
+      "nearest_selective_transit_min": 24.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 52.6,
+      "n_selective_within_30min": 1
+    },
+    "17031710400": {
+      "nearest_selective_transit_min": 14.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 56.0,
+      "n_selective_within_30min": 1
+    },
+    "17031710500": {
+      "nearest_selective_transit_min": 17.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 54.4,
+      "n_selective_within_30min": 1
+    },
+    "17031710600": {
+      "nearest_selective_transit_min": 26.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.7,
+      "n_selective_within_30min": 1
+    },
+    "17031710700": {
+      "nearest_selective_transit_min": 31.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.5,
+      "n_selective_within_30min": 0
+    },
+    "17031710800": {
+      "nearest_selective_transit_min": 32.2,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 45.6,
+      "n_selective_within_30min": 0
+    },
+    "17031710900": {
+      "nearest_selective_transit_min": 40.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 46.2,
+      "n_selective_within_30min": 0
+    },
+    "17031711000": {
+      "nearest_selective_transit_min": 36.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 47.8,
+      "n_selective_within_30min": 0
+    },
+    "17031711100": {
+      "nearest_selective_transit_min": 32.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 49.8,
+      "n_selective_within_30min": 0
+    },
+    "17031711200": {
+      "nearest_selective_transit_min": 20.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 55.2,
+      "n_selective_within_30min": 1
+    },
+    "17031711300": {
+      "nearest_selective_transit_min": 27.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 50.5,
+      "n_selective_within_30min": 1
+    },
+    "17031711400": {
+      "nearest_selective_transit_min": 36.9,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 46.8,
+      "n_selective_within_30min": 0
+    },
+    "17031711500": {
+      "nearest_selective_transit_min": 36.7,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 43.8,
+      "n_selective_within_30min": 0
+    },
+    "17031720100": {
+      "nearest_selective_transit_min": 36.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 61.8,
+      "n_selective_within_30min": 0
+    },
+    "17031720200": {
+      "nearest_selective_transit_min": 41.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 61.9,
+      "n_selective_within_30min": 0
+    },
+    "17031720300": {
+      "nearest_selective_transit_min": 41.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 62.0,
+      "n_selective_within_30min": 0
+    },
+    "17031720400": {
+      "nearest_selective_transit_min": 42.9,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 69.7,
+      "n_selective_within_30min": 0
+    },
+    "17031720500": {
+      "nearest_selective_transit_min": 41.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 68.0,
+      "n_selective_within_30min": 0
+    },
+    "17031720600": {
+      "nearest_selective_transit_min": 38.6,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 64.5,
+      "n_selective_within_30min": 0
+    },
+    "17031720700": {
+      "nearest_selective_transit_min": 33.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 58.7,
+      "n_selective_within_30min": 0
+    },
+    "17031730100": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 44.1,
+      "n_selective_within_30min": 1
+    },
+    "17031730201": {
+      "nearest_selective_transit_min": 31.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 56.0,
+      "n_selective_within_30min": 0
+    },
+    "17031730202": {
+      "nearest_selective_transit_min": 35.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 53.5,
+      "n_selective_within_30min": 0
+    },
+    "17031730300": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 56.1,
+      "n_selective_within_30min": 1
+    },
+    "17031730400": {
+      "nearest_selective_transit_min": 32.7,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 45.6,
+      "n_selective_within_30min": 0
+    },
+    "17031730500": {
+      "nearest_selective_transit_min": 31.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 49.7,
+      "n_selective_within_30min": 0
+    },
+    "17031730600": {
+      "nearest_selective_transit_min": 31.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 53.7,
+      "n_selective_within_30min": 0
+    },
+    "17031730700": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 56.8,
+      "n_selective_within_30min": 1
+    },
+    "17031740100": {
+      "nearest_selective_transit_min": 40.9,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 70.3,
+      "n_selective_within_30min": 0
+    },
+    "17031740200": {
+      "nearest_selective_transit_min": 41.6,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 69.2,
+      "n_selective_within_30min": 0
+    },
+    "17031740300": {
+      "nearest_selective_transit_min": 40.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 70.5,
+      "n_selective_within_30min": 0
+    },
+    "17031740400": {
+      "nearest_selective_transit_min": 46.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 76.8,
+      "n_selective_within_30min": 0
+    },
+    "17031750100": {
+      "nearest_selective_transit_min": 16.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 63.3,
+      "n_selective_within_30min": 1
+    },
+    "17031750200": {
+      "nearest_selective_transit_min": 28.4,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 60.7,
+      "n_selective_within_30min": 1
+    },
+    "17031750300": {
+      "nearest_selective_transit_min": 36.6,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 66.1,
+      "n_selective_within_30min": 0
+    },
+    "17031750400": {
+      "nearest_selective_transit_min": 40.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 69.2,
+      "n_selective_within_30min": 0
+    },
+    "17031750500": {
+      "nearest_selective_transit_min": 21.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 64.0,
+      "n_selective_within_30min": 1
+    },
+    "17031750600": {
+      "nearest_selective_transit_min": 16.0,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 64.8,
+      "n_selective_within_30min": 1
+    },
+    "17031760801": {
+      "nearest_selective_transit_min": 46.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 46.1,
+      "n_selective_within_30min": 0
+    },
+    "17031760802": {
+      "nearest_selective_transit_min": 72.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 72.5,
+      "n_selective_within_30min": 0
+    },
+    "17031760803": {
+      "nearest_selective_transit_min": 57.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 57.0,
+      "n_selective_within_30min": 0
+    },
+    "17031830500": {
+      "nearest_selective_transit_min": 27.5,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 53.6,
+      "n_selective_within_30min": 1
+    },
+    "17031830600": {
+      "nearest_selective_transit_min": 45.0,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 45.0,
+      "n_selective_within_30min": 0
+    },
+    "17031830700": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 28.1,
+      "n_selective_within_30min": 1
+    },
+    "17031830800": {
+      "nearest_selective_transit_min": 22.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.6,
+      "n_selective_within_30min": 1
+    },
+    "17031830900": {
+      "nearest_selective_transit_min": 19.9,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 19.9,
+      "n_selective_within_30min": 1
+    },
+    "17031831000": {
+      "nearest_selective_transit_min": 29.3,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 29.3,
+      "n_selective_within_30min": 1
+    },
+    "17031831100": {
+      "nearest_selective_transit_min": 20.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 20.1,
+      "n_selective_within_30min": 1
+    },
+    "17031831200": {
+      "nearest_selective_transit_min": 33.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 42.8,
+      "n_selective_within_30min": 0
+    },
+    "17031831300": {
+      "nearest_selective_transit_min": 31.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 46.3,
+      "n_selective_within_30min": 0
+    },
+    "17031831400": {
+      "nearest_selective_transit_min": 50.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 56.5,
+      "n_selective_within_30min": 0
+    },
+    "17031831500": {
+      "nearest_selective_transit_min": 49.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 53.4,
+      "n_selective_within_30min": 0
+    },
+    "17031831600": {
+      "nearest_selective_transit_min": 46.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 58.5,
+      "n_selective_within_30min": 0
+    },
+    "17031831700": {
+      "nearest_selective_transit_min": 33.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 33.5,
+      "n_selective_within_30min": 0
+    },
+    "17031831800": {
+      "nearest_selective_transit_min": 13.5,
+      "sat_of_nearest_selective_transit": 1303.0,
+      "transit_min_to_nearest_elite": 13.5,
+      "n_selective_within_30min": 1
+    },
+    "17031831900": {
+      "nearest_selective_transit_min": 14.1,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 14.1,
+      "n_selective_within_30min": 1
+    },
+    "17031832000": {
+      "nearest_selective_transit_min": 18.6,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 18.6,
+      "n_selective_within_30min": 2
+    },
+    "17031832100": {
+      "nearest_selective_transit_min": 25.5,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.5,
+      "n_selective_within_30min": 1
+    },
+    "17031832200": {
+      "nearest_selective_transit_min": 25.2,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 25.2,
+      "n_selective_within_30min": 1
+    },
+    "17031832300": {
+      "nearest_selective_transit_min": 28.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 28.3,
+      "n_selective_within_30min": 1
+    },
+    "17031832400": {
+      "nearest_selective_transit_min": 22.0,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 22.0,
+      "n_selective_within_30min": 2
+    },
+    "17031832500": {
+      "nearest_selective_transit_min": 29.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 29.7,
+      "n_selective_within_30min": 1
+    },
+    "17031832600": {
+      "nearest_selective_transit_min": 26.0,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 26.0,
+      "n_selective_within_30min": 2
+    },
+    "17031832900": {
+      "nearest_selective_transit_min": 9.7,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 9.7,
+      "n_selective_within_30min": 2
+    },
+    "17031833000": {
+      "nearest_selective_transit_min": 17.4,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 17.4,
+      "n_selective_within_30min": 1
+    },
+    "17031833100": {
+      "nearest_selective_transit_min": 8.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 8.8,
+      "n_selective_within_30min": 2
+    },
+    "17031833300": {
+      "nearest_selective_transit_min": 17.5,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 17.5,
+      "n_selective_within_30min": 2
+    },
+    "17031833900": {
+      "nearest_selective_transit_min": 24.9,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 51.5,
+      "n_selective_within_30min": 1
+    },
+    "17031834000": {
+      "nearest_selective_transit_min": 28.1,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 46.6,
+      "n_selective_within_30min": 1
+    },
+    "17031834200": {
+      "nearest_selective_transit_min": 6.6,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 40.1,
+      "n_selective_within_30min": 1
+    },
+    "17031834300": {
+      "nearest_selective_transit_min": 21.0,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 49.2,
+      "n_selective_within_30min": 1
+    },
+    "17031834400": {
+      "nearest_selective_transit_min": 19.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 41.6,
+      "n_selective_within_30min": 1
+    },
+    "17031834500": {
+      "nearest_selective_transit_min": 27.8,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 32.0,
+      "n_selective_within_30min": 2
+    },
+    "17031834600": {
+      "nearest_selective_transit_min": 19.0,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 31.1,
+      "n_selective_within_30min": 1
+    },
+    "17031834700": {
+      "nearest_selective_transit_min": 20.4,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 34.8,
+      "n_selective_within_30min": 1
+    },
+    "17031834800": {
+      "nearest_selective_transit_min": 20.7,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 37.0,
+      "n_selective_within_30min": 1
+    },
+    "17031834900": {
+      "nearest_selective_transit_min": 22.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 43.7,
+      "n_selective_within_30min": 1
+    },
+    "17031835000": {
+      "nearest_selective_transit_min": 14.4,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 47.4,
+      "n_selective_within_30min": 2
+    },
+    "17031835100": {
+      "nearest_selective_transit_min": 15.6,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 44.0,
+      "n_selective_within_30min": 2
+    },
+    "17031835200": {
+      "nearest_selective_transit_min": 21.9,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 53.9,
+      "n_selective_within_30min": 1
+    },
+    "17031835500": {
+      "nearest_selective_transit_min": 17.0,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 26.5,
+      "n_selective_within_30min": 2
+    },
+    "17031835600": {
+      "nearest_selective_transit_min": 26.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 27.1,
+      "n_selective_within_30min": 3
+    },
+    "17031835800": {
+      "nearest_selective_transit_min": 14.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 33.9,
+      "n_selective_within_30min": 1
+    },
+    "17031836000": {
+      "nearest_selective_transit_min": 11.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 39.1,
+      "n_selective_within_30min": 1
+    },
+    "17031836100": {
+      "nearest_selective_transit_min": 24.1,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 33.9,
+      "n_selective_within_30min": 1
+    },
+    "17031836200": {
+      "nearest_selective_transit_min": 20.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 37.7,
+      "n_selective_within_30min": 1
+    },
+    "17031836300": {
+      "nearest_selective_transit_min": 16.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 26.8,
+      "n_selective_within_30min": 3
+    },
+    "17031836400": {
+      "nearest_selective_transit_min": 17.9,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 37.3,
+      "n_selective_within_30min": 1
+    },
+    "17031836500": {
+      "nearest_selective_transit_min": 18.6,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 34.8,
+      "n_selective_within_30min": 1
+    },
+    "17031836600": {
+      "nearest_selective_transit_min": 9.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 32.9,
+      "n_selective_within_30min": 1
+    },
+    "17031836700": {
+      "nearest_selective_transit_min": 8.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 26.6,
+      "n_selective_within_30min": 2
+    },
+    "17031836800": {
+      "nearest_selective_transit_min": 15.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 29.8,
+      "n_selective_within_30min": 2
+    },
+    "17031836900": {
+      "nearest_selective_transit_min": 6.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 22.2,
+      "n_selective_within_30min": 2
+    },
+    "17031837000": {
+      "nearest_selective_transit_min": 13.5,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 13.5,
+      "n_selective_within_30min": 2
+    },
+    "17031837100": {
+      "nearest_selective_transit_min": 11.1,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 24.1,
+      "n_selective_within_30min": 2
+    },
+    "17031837300": {
+      "nearest_selective_transit_min": 11.3,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 22.6,
+      "n_selective_within_30min": 2
+    },
+    "17031837400": {
+      "nearest_selective_transit_min": 13.0,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 13.0,
+      "n_selective_within_30min": 2
+    },
+    "17031837800": {
+      "nearest_selective_transit_min": 18.3,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 18.3,
+      "n_selective_within_30min": 2
+    },
+    "17031838000": {
+      "nearest_selective_transit_min": 8.7,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 8.7,
+      "n_selective_within_30min": 2
+    },
+    "17031838100": {
+      "nearest_selective_transit_min": 9.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 9.8,
+      "n_selective_within_30min": 2
+    },
+    "17031838200": {
+      "nearest_selective_transit_min": 19.4,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 19.4,
+      "n_selective_within_30min": 1
+    },
+    "17031838300": {
+      "nearest_selective_transit_min": 4.6,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 4.6,
+      "n_selective_within_30min": 2
+    },
+    "17031838600": {
+      "nearest_selective_transit_min": 18.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 27.6,
+      "n_selective_within_30min": 2
+    },
+    "17031838700": {
+      "nearest_selective_transit_min": 24.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 38.7,
+      "n_selective_within_30min": 1
+    },
+    "17031838800": {
+      "nearest_selective_transit_min": 109.5,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": null,
+      "n_selective_within_30min": 0
+    },
+    "17031839000": {
+      "nearest_selective_transit_min": 7.8,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 7.8,
+      "n_selective_within_30min": 1
+    },
+    "17031839100": {
+      "nearest_selective_transit_min": 11.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 11.6,
+      "n_selective_within_30min": 3
+    },
+    "17031839200": {
+      "nearest_selective_transit_min": 21.2,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 21.2,
+      "n_selective_within_30min": 2
+    },
+    "17031839500": {
+      "nearest_selective_transit_min": 18.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 27.0,
+      "n_selective_within_30min": 2
+    },
+    "17031839600": {
+      "nearest_selective_transit_min": 19.7,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 28.9,
+      "n_selective_within_30min": 2
+    },
+    "17031839700": {
+      "nearest_selective_transit_min": 28.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 28.6,
+      "n_selective_within_30min": 1
+    },
+    "17031839800": {
+      "nearest_selective_transit_min": 29.5,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 29.5,
+      "n_selective_within_30min": 1
+    },
+    "17031839900": {
+      "nearest_selective_transit_min": 27.0,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 27.0,
+      "n_selective_within_30min": 1
+    },
+    "17031840000": {
+      "nearest_selective_transit_min": 23.5,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 23.5,
+      "n_selective_within_30min": 2
+    },
+    "17031840100": {
+      "nearest_selective_transit_min": 26.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 26.6,
+      "n_selective_within_30min": 1
+    },
+    "17031840200": {
+      "nearest_selective_transit_min": 22.6,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 22.6,
+      "n_selective_within_30min": 1
+    },
+    "17031840300": {
+      "nearest_selective_transit_min": 31.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 31.4,
+      "n_selective_within_30min": 0
+    },
+    "17031840400": {
+      "nearest_selective_transit_min": 29.5,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 29.5,
+      "n_selective_within_30min": 1
+    },
+    "17031840700": {
+      "nearest_selective_transit_min": 28.5,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 30.1,
+      "n_selective_within_30min": 1
+    },
+    "17031840800": {
+      "nearest_selective_transit_min": 28.9,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 40.5,
+      "n_selective_within_30min": 1
+    },
+    "17031841000": {
+      "nearest_selective_transit_min": 39.2,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 39.2,
+      "n_selective_within_30min": 0
+    },
+    "17031841100": {
+      "nearest_selective_transit_min": 16.1,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 16.1,
+      "n_selective_within_30min": 1
+    },
+    "17031841200": {
+      "nearest_selective_transit_min": 28.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 1
+    },
+    "17031841300": {
+      "nearest_selective_transit_min": 34.8,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 34.8,
+      "n_selective_within_30min": 0
+    },
+    "17031841500": {
+      "nearest_selective_transit_min": 19.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 32.4,
+      "n_selective_within_30min": 1
+    },
+    "17031841700": {
+      "nearest_selective_transit_min": 23.0,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 33.7,
+      "n_selective_within_30min": 1
+    },
+    "17031841800": {
+      "nearest_selective_transit_min": 27.5,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 49.2,
+      "n_selective_within_30min": 1
+    },
+    "17031841900": {
+      "nearest_selective_transit_min": 18.2,
+      "sat_of_nearest_selective_transit": 1276.0,
+      "transit_min_to_nearest_elite": 18.2,
+      "n_selective_within_30min": 2
+    },
+    "17031842000": {
+      "nearest_selective_transit_min": 19.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 22.7,
+      "n_selective_within_30min": 2
+    },
+    "17031842100": {
+      "nearest_selective_transit_min": 19.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 40.9,
+      "n_selective_within_30min": 1
+    },
+    "17031842200": {
+      "nearest_selective_transit_min": 18.3,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 18.3,
+      "n_selective_within_30min": 2
+    },
+    "17031842300": {
+      "nearest_selective_transit_min": 25.2,
+      "sat_of_nearest_selective_transit": 1334.0,
+      "transit_min_to_nearest_elite": 25.2,
+      "n_selective_within_30min": 2
+    },
+    "17031842400": {
+      "nearest_selective_transit_min": 34.2,
+      "sat_of_nearest_selective_transit": 1111.0,
+      "transit_min_to_nearest_elite": 44.7,
+      "n_selective_within_30min": 0
+    },
+    "17031842500": {
+      "nearest_selective_transit_min": 29.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 36.5,
+      "n_selective_within_30min": 1
+    },
+    "17031842600": {
+      "nearest_selective_transit_min": 35.4,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 41.6,
+      "n_selective_within_30min": 0
+    },
+    "17031842800": {
+      "nearest_selective_transit_min": 26.1,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 43.7,
+      "n_selective_within_30min": 1
+    },
+    "17031842900": {
+      "nearest_selective_transit_min": 23.2,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 23.2,
+      "n_selective_within_30min": 1
+    },
+    "17031843000": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 35.3,
+      "n_selective_within_30min": 1
+    },
+    "17031843100": {
+      "nearest_selective_transit_min": 23.8,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 2
+    },
+    "17031843200": {
+      "nearest_selective_transit_min": 25.7,
+      "sat_of_nearest_selective_transit": 1297.0,
+      "transit_min_to_nearest_elite": 25.7,
+      "n_selective_within_30min": 1
+    },
+    "17031843300": {
+      "nearest_selective_transit_min": 25.6,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 2
+    },
+    "17031843400": {
+      "nearest_selective_transit_min": 33.1,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 42.5,
+      "n_selective_within_30min": 0
+    },
+    "17031843500": {
+      "nearest_selective_transit_min": 36.2,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 41.2,
+      "n_selective_within_30min": 0
+    },
+    "17031843600": {
+      "nearest_selective_transit_min": 10.9,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 33.9,
+      "n_selective_within_30min": 1
+    },
+    "17031843700": {
+      "nearest_selective_transit_min": 3.7,
+      "sat_of_nearest_selective_transit": 1256.0,
+      "transit_min_to_nearest_elite": 3.7,
+      "n_selective_within_30min": 1
+    },
+    "17031843800": {
+      "nearest_selective_transit_min": 28.5,
+      "sat_of_nearest_selective_transit": 1046.0,
+      "transit_min_to_nearest_elite": 29.9,
+      "n_selective_within_30min": 2
+    },
+    "17031843900": {
+      "nearest_selective_transit_min": 15.1,
+      "sat_of_nearest_selective_transit": 901.0,
+      "transit_min_to_nearest_elite": 33.8,
+      "n_selective_within_30min": 1
+    },
+    "17031844600": {
+      "nearest_selective_transit_min": 17.3,
+      "sat_of_nearest_selective_transit": 939.0,
+      "transit_min_to_nearest_elite": 28.2,
+      "n_selective_within_30min": 2
+    },
+    "17031844700": {
+      "nearest_selective_transit_min": 27.7,
+      "sat_of_nearest_selective_transit": 1005.0,
+      "transit_min_to_nearest_elite": 35.8,
+      "n_selective_within_30min": 1
+    },
+    "17031980100": {
+      "nearest_selective_transit_min": 26.7,
+      "sat_of_nearest_selective_transit": 1078.0,
+      "transit_min_to_nearest_elite": 53.5,
+      "n_selective_within_30min": 1
+    }
+  }
+}

@@ -207,3 +207,39 @@ data into something non-technical people can use."*
   `C:/Users/alan/nfl/nfl-platform/api/venv/Scripts/python.exe` (or create a fresh venv for this
   project; will also need `geopandas`, `psycopg2-binary`/`sqlalchemy`, `requests`).
 - Personal contact/links for any deploy/README: GitHub `alanzavala1`.
+
+---
+
+## 11. Direction updates (2026-06-24, after Phase 1)
+
+Decisions made once the data was in hand. These refine §3–4; see `analysis/FINDINGS.md`
+for the numbers behind them.
+
+1. **Finding 1 reframed: it's race, not income.** Bivariately, neighborhood income predicts
+   assigned default-school quality (r=0.38), but that washes out to ~0 after controlling for
+   racial/poverty composition; **% Black is the strongest surviving predictor** (r=−0.52),
+   % Hispanic ≈ 0. Income was mostly a proxy for segregation. State the finding this way;
+   never as "income causes" or "race causes" (descriptive only; the variables are too
+   collinear to cleanly separate — that entanglement is itself the point).
+
+2. **The tool shows ALL variables; the honesty check only governs wording.** Do not narrow
+   the product to one variable. Income, race (all groups), poverty, and school quality are
+   all explorable layers — users see for themselves that they trace the same map. The
+   "race is the strongest thread" conclusion lives in the *written analysis*, not as a filter
+   that hides data.
+
+3. **Project ≠ personal story.** Build the tool to be true and complete on its own data,
+   with zero reference to Alan. "Brighton Park → Jones" is *narration* used when presenting
+   it (README intro, demo, application), not a component of the analysis. (Honest caveat for
+   that narration: Brighton Park is Hispanic; its default Kelly HS (SAT 885) is mid-pack, not
+   bottom-tier — Alan's real story is *access/distance* to selective schools, i.e. Finding 2,
+   not escaping a terrible local school.)
+
+4. **One interactive map, not two static ones.** The §3 "two-map comparison" was just a way
+   to get simultaneous visual comparison. Achieve that in a single experience instead:
+   layer switcher + swipe/slider compare (+ optional bivariate shading), plus click-a-
+   neighborhood → panel with all its numbers. Decide specifics in Phase 3.
+
+5. **Terminology:** call it **selective-enrollment access** / **Finding 2**, not "escape
+   hatch." For the combined worst-default + worst-access neighborhoods, use a neutral term
+   like "double disadvantage," not loaded framing.

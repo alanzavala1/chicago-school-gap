@@ -1,0 +1,30 @@
+{
+  "chosen_k": 5,
+  "labels": {
+    "group_1": {
+      "label": "Weak default, few local options",
+      "color": "#e23b3b",
+      "description": "Students are commonly assigned to weaker default high schools, and there are few CPS high schools located nearby."
+    },
+    "group_2": {
+      "label": "Weak default and local schools",
+      "color": "#f0883e",
+      "description": "Both the assigned default schools and the high schools located in the area show weaker outcome patterns."
+    },
+    "group_3": {
+      "label": "Weak local schools, better access",
+      "color": "#d8a31a",
+      "description": "Schools located in the area look weaker, but assigned defaults or nearby selective access look stronger than the city pattern."
+    },
+    "group_4": {
+      "label": "Few local schools, stronger default",
+      "color": "#7c6ee6",
+      "description": "There are few CPS high schools physically located in the area, but assigned defaults or access measures look stronger."
+    },
+    "group_5": {
+      "label": "Stronger school/access pattern",
+      "color": "#2fcb7e",
+      "description": "Assigned schools, local schools, or selective access look stronger than the city pattern."
+    }
+  }
+}
