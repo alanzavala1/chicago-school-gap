@@ -158,23 +158,27 @@ build-time (local)                              runtime (static host)
 
 ## Reproducing it
 
-Requirements: Docker, a Python env with `requirements.txt` installed, and Node (for `mapshaper`,
-run via `npx`).
+Requirements: Docker, Python 3.11+, and Node (for `mapshaper`, run via `npx`).
 
 ```bash
+# 0. Python deps in a project virtualenv
+python -m venv .venv
+.venv/Scripts/pip install -r requirements.txt                    # Windows
+# source .venv/bin/activate && pip install -r requirements.txt   # macOS / Linux
+
 # 1. start PostGIS
 docker run -d --name chicago-postgis -e POSTGRES_PASSWORD=chicago \
   -e POSTGRES_DB=school_gap -p 5433:5432 postgis/postgis:16-3.4
 
 # 2. (optional, for travel time) bring up the routing engines, then build the matrices
-bash analysis/osrm/osrm_up.sh        # driving  — downloads OSM extract, builds graph, serves :5000
-bash analysis/otp/otp_up.sh          # transit  — downloads CTA GTFS, builds graph, serves :8080
-python analysis/14_driving_access.py # driving travel-time matrix
-python analysis/15_transit_access.py # CTA transit travel-time matrix
-python analysis/18_routes.py         # route geometry for click-to-route
+bash analysis/osrm/osrm_up.sh                     # driving  — OSM extract, builds graph, serves :5000
+bash analysis/otp/otp_up.sh                       # transit  — CTA GTFS, builds graph, serves :8080
+.venv/Scripts/python analysis/14_driving_access.py  # driving travel-time matrix
+.venv/Scripts/python analysis/15_transit_access.py  # CTA transit travel-time matrix
+.venv/Scripts/python analysis/18_routes.py          # route geometry for click-to-route
 
 # 3. rebuild the whole pipeline end to end
-PY=/path/to/python ./analysis/run_all.sh
+PY=.venv/Scripts/python ./analysis/run_all.sh
 
 # 4. run the map
 cd frontend && npm install && npm run dev
