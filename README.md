@@ -4,7 +4,7 @@ An interactive map that shows how a Chicago student's public high school options
 they live: the high school they're assigned by home address, how it compares to others across the
 city, and how far the strongest schools are — by car and by public transit.
 
-**Live demo:** _to be added after deploy_ · **Numbers, methods, and limits:** [`analysis/FINDINGS.md`](./analysis/FINDINGS.md)
+**Live demo:** [chicago-school-gap.vercel.app](https://chicago-school-gap.vercel.app) · **Numbers, methods, and limits:** [`analysis/FINDINGS.md`](./analysis/FINDINGS.md)
 
 It's built entirely on public data and is **descriptive** — it measures assignment, school
 outcomes, access, and student-body composition. It does not make causal claims and does not
