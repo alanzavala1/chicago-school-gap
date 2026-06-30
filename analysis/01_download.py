@@ -196,7 +196,7 @@ def download_acs_demographics(name):
 
 
 if __name__ == "__main__":
-    print("=== Chicago School Gap — Phase 1 download ===")
+    print("=== Chicago School Gap - download raw data ===")
     download_socrata_json("twrw-chuq", "progress_sy2425.json", limit=5000)
     download_socrata_geojson("4kfz-zr3a", "hs_attendance_boundaries.geojson", limit=5000)
     download_tiger_tracts("tiger_tracts_2020.geojson")
