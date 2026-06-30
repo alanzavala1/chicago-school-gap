@@ -6,6 +6,8 @@ city, and how far the strongest schools are — by car and by public transit.
 
 **Live demo:** [chicago-school-gap.vercel.app](https://chicago-school-gap.vercel.app) · **Numbers, methods, and limits:** [`analysis/FINDINGS.md`](./analysis/FINDINGS.md)
 
+![Chicago's 77 community areas grouped by school access and quality, with all CPS high schools shown as pins](docs/demo2.png)
+
 It's built entirely on public data and is **descriptive** — it measures assignment, school
 outcomes, access, and student-body composition. It does not make causal claims and does not
 estimate anyone's odds of admission (origin-level admissions data isn't public).
@@ -60,6 +62,15 @@ neighborhood.
   bus network — to show how the transit network itself shapes access.
 
 Best viewed on a desktop browser.
+
+![Clicking a neighborhood opens a panel with its assigned school, how local schools compare to the city, the group it falls in, and travel time to selective schools by car vs. CTA](docs/demo4.png)
+*Clicking a neighborhood: its assigned school, local-school outcomes vs. the city, its group, and travel time to selective schools by car vs. CTA.*
+
+![Driving and CTA transit routes drawn to the nearest selective school, labeled with real times](docs/demo3.png)
+*The routes drawn on click — assigned school, plus driving and CTA transit to the nearest selective — labeled with real times (here 2 min to the assigned school, 7 by car, 29 by CTA).*
+
+![The CTA L and bus network shown as toggleable context layers](docs/demo1.png)
+*The CTA 'L' and bus layers, toggled on — the rail network thins out toward the South and Southwest, where transit trips to selective schools run longest.*
 
 ---
 
