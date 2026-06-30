@@ -6,7 +6,7 @@ replacing the straight-line distance proxy in Finding 2's access metrics.
 
 Like the PostGIS container, this is a **build-time analysis tool**. Its results
 are baked into `output/driving_*` (static files); nothing here ships to
-production. The deployed map stays a static site (see PROJECT_OVERVIEW §4).
+production. The deployed map stays a static site with no backend.
 
 ## Run it
 

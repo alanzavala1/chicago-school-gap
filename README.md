@@ -159,7 +159,6 @@ analysis/        download + PostGIS pipeline (numbered stages 01–18), SQL, and
   DATA_INVENTORY.md   field-by-field coverage audit
 output/          exported GeoJSON/CSV (analysis source of truth)
 frontend/        React + TypeScript + MapLibre app (serves static data from public/data)
-PROJECT_BRIEF.md / PROJECT_OVERVIEW.md   the project's design and decisions
 ```
 
 Large or regenerable inputs (raw downloads, OSM/GTFS feeds, routing graphs, the generated

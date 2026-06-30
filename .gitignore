@@ -12,7 +12,11 @@ frontend/*.log
 # Generated SQL (rebuilt by analysis/02_load.py in run_all.sh)
 analysis/load.sql
 
-# Data — raw downloads & large/generated files (keep these out of git; document sources in PROJECT_BRIEF.md)
+# Internal planning / agent-context notes (kept local, not part of the public repo)
+PROJECT_BRIEF.md
+PROJECT_OVERVIEW.md
+
+# Data — raw downloads & large/generated files (sources are documented in README.md)
 data/raw/
 data/osrm/
 data/otp/
