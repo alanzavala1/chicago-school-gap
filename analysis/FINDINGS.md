@@ -285,7 +285,7 @@ closer multi-variable proxy index.
    (OSRM driving) and `analysis/otp/otp_up.sh` + `analysis/15_transit_access.py` (OTP CTA transit)
    → matrices in `output/*_selective.csv`; `analysis/16_routed_access.sql` → `tract_routed`.
    Engine-dependent; their CSV outputs are committed so the rebuild consumes them keyless.
-9. `analysis/09_export.sql` (+ views) → `output/{tracts,schools,zones}.geojson` (frontend layers)
+9. `analysis/09_export.sql` (+ views) → `output/{tracts,schools,city_boundary,community_areas}.geojson` (frontend layers)
 
 **DB:** container `chicago-postgis`, PostGIS 16-3.4, port **5433**, db `school_gap`,
 user `postgres` / pw `chicago`. Tables: `schools` (649), `attendance_boundaries` (49),

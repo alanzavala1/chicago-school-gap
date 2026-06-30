@@ -44,16 +44,13 @@ psql -f - < analysis/07_finding2.sql > /dev/null
 echo "== 8. combined status (tie-safe, deterministic; creates tract_combined) =="
 psql -f - < analysis/08_combined.sql
 
-echo "== 8b. access territories (Voronoi of selective schools) =="
-psql -f - < analysis/10_territories.sql > /dev/null
-
-echo "== 8c. composite distress score (8 indicators) =="
+echo "== 8b. composite distress score (8 indicators; feeds the community clustering) =="
 psql -f - < analysis/11_distress.sql > /dev/null
 
-echo "== 8d. community-area metrics for clustering =="
+echo "== 8c. community-area metrics for clustering =="
 psql -f - < analysis/12_community_metrics.sql > /dev/null
 
-echo "== 8e. routed access: real driving (OSRM) + CTA transit (OTP) =="
+echo "== 8d. routed access: real driving (OSRM) + CTA transit (OTP) =="
 # The matrices are produced by engine-dependent stages run manually:
 #   bash analysis/osrm/osrm_up.sh && "$PY" analysis/14_driving_access.py
 #   bash analysis/otp/otp_up.sh  && "$PY" analysis/15_transit_access.py
@@ -75,7 +72,7 @@ fi
 
 echo "== 9. export GeoJSON/JSON views + files =="
 psql -f - < analysis/09_export.sql > /dev/null
-for layer in tracts schools zones city_boundary territories distress_points community_areas; do
+for layer in tracts schools city_boundary community_areas; do
   docker exec "$CONTAINER" psql -U postgres -d school_gap -t -A \
     -c "SELECT * FROM ${layer}_geojson_v;" > "output/${layer}.geojson"
 done
@@ -106,7 +103,7 @@ else
 fi
 
 echo "== 10. simplify tracts (topology-aware) + copy layers to frontend =="
-cp output/schools.geojson output/zones.geojson output/city_boundary.geojson output/territories.geojson output/distress_points.geojson output/community_areas.geojson output/community_groups.json frontend/public/data/
+cp output/schools.geojson output/city_boundary.geojson output/community_areas.geojson output/community_groups.json frontend/public/data/
 npx -y mapshaper output/tracts.geojson -simplify 18% keep-shapes \
   -o force frontend/public/data/tracts.geojson
 

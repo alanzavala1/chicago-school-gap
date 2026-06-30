@@ -1,3 +1,7 @@
+// MapView draws the MapLibre map: the community-area choropleth, school pins,
+// the CTA rail/bus context layers, the click-to-route lines with time labels, and
+// the community-area name labels. App owns the data and state; this just renders
+// it and forwards hover/click events back up.
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Map, { Source, Layer, Marker, Popup, type MapRef, type ViewState, type MapLayerMouseEvent } from "react-map-gl/maplibre";
 import type { Map as MaplibreMap } from "maplibre-gl";

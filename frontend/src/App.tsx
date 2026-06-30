@@ -1,3 +1,8 @@
+// App is the whole thing. It loads the precomputed static GeoJSON from
+// public/data (tract metrics, schools, community groups, CTA layers, and the
+// click-to-route paths), keeps the map toggles and the current selection, and on
+// a click pulls that tract's numbers + routes into the side panel and the map.
+// There is no backend — everything here reads files the analysis pipeline baked.
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { FeatureCollection, Feature, Point } from "geojson";
 import type { ViewState, MapLayerMouseEvent } from "react-map-gl/maplibre";
@@ -375,8 +380,7 @@ export default function App() {
       const m = mid(c); labels.push({ lng: m[0], lat: m[1], label: `${assignedMiles.toFixed(1)} mi` });
     }
 
-    // line to the nearest selective school
-    let nearest: { name: string; sat: number | null; miles: number } | null = null;
+    // fallback straight line to the nearest selective (only used if a tract has no precomputed route)
     if (selectiveSchools.length) {
       let best: Feature<Point> | null = null, bestD = Infinity;
       for (const s of selectiveSchools) {
@@ -385,7 +389,6 @@ export default function App() {
       }
       if (best) {
         const c = best.geometry.coordinates as [number, number];
-        nearest = { name: best.properties!.name, sat: best.properties!.sat_g11, miles: bestD };
         lines.push({ type: "Feature", properties: { role: "selective" }, geometry: { type: "LineString", coordinates: [here, c] } });
         const m = mid(c); labels.push({ lng: m[0], lat: m[1], label: `${bestD.toFixed(1)} mi` });
       }
@@ -412,7 +415,7 @@ export default function App() {
       setConnectorLabels(labels);
     }
     const community = props.community_area ? communitySummaries.get(props.community_area) ?? null : null;
-    setSelection({ kind: "hood", props, community, nearest, nearestStrong, address: null, assignedMiles });
+    setSelection({ kind: "hood", props, community, nearestStrong, address: null, assignedMiles });
     flyTo(here, 12.2);
     // fill in the street address asynchronously (Nominatim, keyless)
     reverseGeocode(here[0], here[1]).then((addr) => {
@@ -505,7 +508,7 @@ export default function App() {
       {showColoring && (
         <div className="profile-legend">
           <div className="profile-legend-title">Community area groups</div>
-          <div className="profile-legend-note">Grouped by school outcomes, school supply, and access. Race and income appear as context.</div>
+          <div className="profile-legend-note">Grouped by school outcomes, school supply, and access.</div>
           {clusterLegend.map((group) => (
             <span key={group.id} title={group.description}><i style={{ background: group.color }} />{group.label}</span>
           ))}

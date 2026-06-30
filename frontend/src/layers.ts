@@ -165,14 +165,3 @@ export function fillColor(layer: LayerDef): any {
   for (const [v, c] of layer.stops!) interp.push(v, c);
   return ["case", ["==", ["typeof", ["get", layer.id]], "number"], interp, NULL_COLOR];
 }
-
-export interface LegendItem { swatch: string; label: string; }
-
-export function legendItems(layer: LayerDef): LegendItem[] {
-  if (layer.kind === "categorical") {
-    return layer.cats!.map((c) => ({ swatch: c.color, label: c.label }));
-  }
-  return layer.stops!.map(([v, c]) => ({ swatch: c, label: layer.fmt(v) }));
-}
-
-export const GROUPS = Array.from(new Set(LAYERS.map((l) => l.group)));

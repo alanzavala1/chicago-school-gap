@@ -51,7 +51,6 @@ export type Selection =
     kind: "hood";
     props: TractProps;
     community: CommunitySummary | null;
-    nearest: { name: string; sat: number | null; miles: number } | null;
     nearestStrong: { name: string; sat: number | null; miles: number } | null;
     address: string | null;
     assignedMiles: number | null;
@@ -291,7 +290,7 @@ function HoodView({ props, community, nearestStrong, address, assignedMiles, ref
       </div>
       <div className="subline">{address ? `Clicked near ${address}` : "Click location summarized with community-area data"}</div>
 
-      <EvidenceSection title="Area group" note="Community areas grouped by k-means clustering on four school-access measures: assigned-school strength, strength of schools located here, number of high schools, and selective access. Race and income are not inputs to the model.">
+      <EvidenceSection title="Area group" note="Community areas grouped by k-means clustering on four school-access measures: assigned-school strength, strength of schools located here, number of high schools, and selective access.">
         {community?.cluster ? (
           <div className="cluster-card" style={{ borderColor: community.cluster.group_color }}>
             <div className="cluster-card-top">

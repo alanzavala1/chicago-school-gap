@@ -88,60 +88,7 @@ FROM (
   WHERE s.is_hs
 ) sub;
 
--- 3) ASSIGNMENT ZONES — the 49 neighborhood-HS attendance boundaries.
-CREATE OR REPLACE VIEW zones_geojson_v AS
-SELECT json_build_object('type','FeatureCollection','features', COALESCE(json_agg(f),'[]'::json))
-FROM (
-  SELECT json_build_object(
-    'type','Feature',
-    'geometry', ST_AsGeoJSON(b.geom,6)::json,
-    'properties', json_build_object(
-      'school_id', b.school_id, 'school_name', b.school_name, 'sat_g11', s.sat_g11)
-  ) AS f
-  FROM attendance_boundaries b LEFT JOIN schools s ON s.school_id = b.school_id
-) sub;
-
--- 6) DISTRESS POINTS — one point per assigned tract (its internal point) carrying a
--- 0..1 "problem" score = how weak its assigned school AND nearest selective are.
--- Feeds the red heat layer (bright = worst). Good areas score ~0 and stay dark.
-CREATE OR REPLACE VIEW distress_points_geojson_v AS
-WITH base AS (
-  SELECT t.geoid, t.intptlon, t.intptlat, tf.assigned_sat, tf.sat_of_nearest_selective
-  FROM tract_full tf JOIN tracts t ON t.geoid = tf.geoid
-  WHERE tf.assigned_sat IS NOT NULL AND tf.sat_of_nearest_selective IS NOT NULL
-),
-stats AS (
-  SELECT min(assigned_sat) amin, max(assigned_sat) amax,
-         min(sat_of_nearest_selective) smin, max(sat_of_nearest_selective) smax FROM base
-),
-scored AS (
-  SELECT b.intptlon, b.intptlat,
-    ( (s.amax - b.assigned_sat) / NULLIF(s.amax - s.amin, 0)
-    + (s.smax - b.sat_of_nearest_selective) / NULLIF(s.smax - s.smin, 0) ) / 2.0 AS distress
-  FROM base b CROSS JOIN stats s
-)
-SELECT json_build_object('type','FeatureCollection','features', COALESCE(json_agg(f),'[]'::json))
-FROM (
-  SELECT json_build_object('type','Feature',
-    'geometry', json_build_object('type','Point',
-      'coordinates', json_build_array(round(intptlon::numeric,5), round(intptlat::numeric,5))),
-    'properties', json_build_object('distress', round(distress::numeric,3))
-  ) AS f FROM scored
-) sub;
-
--- 5) ACCESS TERRITORIES — Voronoi of selective schools, colored by SAT (10_territories.sql).
-CREATE OR REPLACE VIEW territories_geojson_v AS
-SELECT json_build_object('type','FeatureCollection','features', COALESCE(json_agg(f),'[]'::json))
-FROM (
-  SELECT json_build_object(
-    'type','Feature',
-    'geometry', ST_AsGeoJSON(ST_SimplifyPreserveTopology(geom, 0.0003), 6)::json,
-    'properties', json_build_object('school', short_name, 'sat_g11', sat_g11)
-  ) AS f
-  FROM selective_territories
-) sub;
-
--- 4) CITY BOUNDARY — Chicago / CPS district outline = the 77 community areas dissolved.
+-- 3) CITY BOUNDARY — Chicago / CPS district outline = the 77 community areas dissolved.
 CREATE OR REPLACE VIEW city_boundary_geojson_v AS
 SELECT json_build_object(
   'type','FeatureCollection',
@@ -153,7 +100,7 @@ SELECT json_build_object(
 )
 FROM community_areas;
 
--- 7) COMMUNITY AREAS - one polygon per Chicago community area.
+-- 4) COMMUNITY AREAS - one polygon per Chicago community area.
 -- The frontend joins community_groups.json onto this layer for the default
 -- cluster map, so the visual unit is a community area rather than individual tracts.
 CREATE OR REPLACE VIEW community_areas_geojson_v AS
